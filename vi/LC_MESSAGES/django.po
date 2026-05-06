@@ -3,7 +3,7 @@
 # Translators:
 # Jannis Leidel <jannis@leidel.info>, 2011
 # Thanh Le Viet <lethanhx2k@gmail.com>, 2013
-# Tran Van <vantxm@yahoo.co.uk>, 2011
+# Tran <hongdiepkien@gmail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
@@ -19,20 +19,20 @@ msgstr ""
 "Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Sessions"
+msgid "Sites"
 msgstr ""
 
-msgid "session key"
-msgstr "session key"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "Tên miền không gồm kí tự trống hoặc tab"
 
-msgid "session data"
-msgstr "session data"
+msgid "domain name"
+msgstr "Tên miền"
 
-msgid "expire date"
-msgstr "Ngày hết hạn"
+msgid "display name"
+msgstr "Tên hiển thị"
 
-msgid "session"
-msgstr "Phiên"
+msgid "site"
+msgstr "trang web"
 
-msgid "sessions"
-msgstr "session"
+msgid "sites"
+msgstr "các trang web"

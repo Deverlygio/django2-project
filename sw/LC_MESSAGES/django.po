@@ -1,7 +1,7 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Machaku <bmachaku@gmail.com>, 2014
+# Machaku <bmachaku@gmail.com>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
@@ -17,20 +17,20 @@ msgstr ""
 "Language: sw\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sessions"
-msgstr "Vipindi"
+msgid "Sites"
+msgstr "Tovuti"
 
-msgid "session key"
-msgstr "ufunguo wa kipindi"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "Jina la kikoa haliwezi kuwa na nafasi yeyote kati yake."
 
-msgid "session data"
-msgstr "data za kipindi"
+msgid "domain name"
+msgstr "jina la kikoa"
 
-msgid "expire date"
-msgstr "tarehe ya mwisho ya matumizi"
+msgid "display name"
+msgstr "jina"
 
-msgid "session"
-msgstr "kipindi"
+msgid "site"
+msgstr "tovuti"
 
-msgid "sessions"
-msgstr "vipindi"
+msgid "sites"
+msgstr "tovuti"

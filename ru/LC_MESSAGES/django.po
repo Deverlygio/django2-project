@@ -1,6 +1,8 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
+# Eugene MechanisM <eugene@mechanism.pro>, 2013
+# Eugene MechanisM <eugene@mechanism.pro>, 2016
 # Jannis Leidel <jannis@leidel.info>, 2011
 # Алексей Борискин <sun.void@gmail.com>, 2014
 msgid ""
@@ -20,20 +22,20 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-msgid "Sessions"
-msgstr "Сессии"
+msgid "Sites"
+msgstr "Сайты"
 
-msgid "session key"
-msgstr "ключ сессии"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "Доменное имя не может содержать пробелы или табуляцию."
 
-msgid "session data"
-msgstr "данные сессии"
+msgid "domain name"
+msgstr "доменное имя"
 
-msgid "expire date"
-msgstr "дата окончания"
+msgid "display name"
+msgstr "отображаемое имя"
 
-msgid "session"
-msgstr "сессия"
+msgid "site"
+msgstr "сайт"
 
-msgid "sessions"
-msgstr "сессии"
+msgid "sites"
+msgstr "сайты"

@@ -16,20 +16,20 @@ msgstr ""
 "Language: uz\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Sessions"
-msgstr "Sessiyalar"
+msgid "Sites"
+msgstr "Saytlar"
 
-msgid "session key"
-msgstr "sessiya kaliti"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "Domen ismi tab`lar va bo'shliqlarsiz bo'lishi kerak"
 
-msgid "session data"
-msgstr "sessiya ma'lumotlari "
+msgid "domain name"
+msgstr "domen nomi"
 
-msgid "expire date"
-msgstr "tugash vaqti"
+msgid "display name"
+msgstr "ko'rsatiladigan ismi"
 
-msgid "session"
-msgstr "sessiya"
+msgid "site"
+msgstr "sayt"
 
-msgid "sessions"
-msgstr "sessiyalar"
+msgid "sites"
+msgstr "saytlar"

@@ -3,6 +3,7 @@
 # Translators:
 # Oleksandr Chernihov <o.chernihov@gmail.com>, 2014
 # Jannis Leidel <jannis@leidel.info>, 2011
+# Alex Bolotov <oleksandr.bolotov@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
@@ -21,20 +22,20 @@ msgstr ""
 "100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
 "(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
-msgid "Sessions"
-msgstr "Сесії"
+msgid "Sites"
+msgstr "Сайти"
 
-msgid "session key"
-msgstr "ключ сесії"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "Доменне ім'я не може містити пробіли або символи табуляції."
 
-msgid "session data"
-msgstr "дані сесії"
+msgid "domain name"
+msgstr "доменне ім'я"
 
-msgid "expire date"
-msgstr "термін придатності"
+msgid "display name"
+msgstr "відображуване ім'я"
 
-msgid "session"
-msgstr "сесія"
+msgid "site"
+msgstr "сайт"
 
-msgid "sessions"
-msgstr "сесії"
+msgid "sites"
+msgstr "сайти"

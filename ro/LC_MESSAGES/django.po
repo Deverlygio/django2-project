@@ -2,8 +2,9 @@
 #
 # Translators:
 # Daniel Ursache-Dogariu, 2011
+# Denis Darii <denis.darii@gmail.com>, 2014
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Razvan Stefanescu <razvan.stefanescu@gmail.com>, 2016
+# Razvan Stefanescu <razvan.stefanescu@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
@@ -20,20 +21,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
 "2:1));\n"
 
-msgid "Sessions"
-msgstr "Sesiuni"
+msgid "Sites"
+msgstr "Pagini web"
 
-msgid "session key"
-msgstr "cheie sesiune"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "Numele de domeniu nu poate conține spații sau tab-uri."
 
-msgid "session data"
-msgstr "date sesiune"
+msgid "domain name"
+msgstr "nume domeniu"
 
-msgid "expire date"
-msgstr "dată expirare"
+msgid "display name"
+msgstr "nume afișat"
 
-msgid "session"
-msgstr "sesiune"
+msgid "site"
+msgstr "pagină web"
 
-msgid "sessions"
-msgstr "sesiuni"
+msgid "sites"
+msgstr "pagini web"

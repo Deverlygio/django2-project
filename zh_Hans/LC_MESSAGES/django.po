@@ -18,20 +18,20 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Sessions"
-msgstr "会话"
+msgid "Sites"
+msgstr "站点"
 
-msgid "session key"
-msgstr "会话密钥"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "域名不能包含任何空格或制表符。"
 
-msgid "session data"
-msgstr "会话数据"
+msgid "domain name"
+msgstr "域名"
 
-msgid "expire date"
-msgstr "过期时间"
+msgid "display name"
+msgstr "显示名称"
 
-msgid "session"
-msgstr "会话"
+msgid "site"
+msgstr "站点"
 
-msgid "sessions"
-msgstr "会话"
+msgid "sites"
+msgstr "站点"

@@ -1,13 +1,14 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
+# Abduqadir Abliz <sahranbay@gmail.com>, 2023
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-17 11:07+0100\n"
-"PO-Revision-Date: 2023-12-04 18:26+0000\n"
-"Last-Translator: Django team\n"
+"PO-Revision-Date: 2023-12-04 18:05+0000\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>, 2023\n"
 "Language-Team: Uyghur (http://app.transifex.com/django/django/language/ug/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,20 +16,20 @@ msgstr ""
 "Language: ug\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sessions"
-msgstr "ئەڭگىمە"
+msgid "Sites"
+msgstr "بېكەتلەر"
 
-msgid "session key"
-msgstr "ئەڭگىمە ئاچقۇچى"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "دائىرە نامى ھەر قانداق بوشلۇق ياكى tab بوشلۇقنى ئۆز ئىچىگە ئالمايدۇ."
 
-msgid "session data"
-msgstr "ئەڭگىمە سانلىق مەلۇماتى"
+msgid "domain name"
+msgstr "دائىرە ئاتى"
 
-msgid "expire date"
-msgstr "ئاخىرلىشىش ۋاقتى"
+msgid "display name"
+msgstr "كۆرسىتىش ئاتى"
 
-msgid "session"
-msgstr "ئەڭگىمە"
+msgid "site"
+msgstr "بېكەت"
 
-msgid "sessions"
-msgstr "ئەڭگىمەلەر"
+msgid "sites"
+msgstr "بېكەتلەر"

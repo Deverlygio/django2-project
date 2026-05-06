@@ -16,20 +16,20 @@ msgstr ""
 "Language: ta\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sessions"
+msgid "Sites"
 msgstr ""
 
-msgid "session key"
-msgstr "அமர்வு குறியீ"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr ""
 
-msgid "session data"
-msgstr "அமர்வு தகவல்"
+msgid "domain name"
+msgstr "களப் பெயர்"
 
-msgid "expire date"
-msgstr "காலாவதியாகும் தேதி"
+msgid "display name"
+msgstr "காட்டும்  பெயர்"
 
-msgid "session"
-msgstr "அமர்வு"
+msgid "site"
+msgstr "வலைத்தளம்"
 
-msgid "sessions"
-msgstr "அமர்வுகள்"
+msgid "sites"
+msgstr "வலைத்தளங்கள்"
