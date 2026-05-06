@@ -2,12 +2,13 @@
 #
 # Translators:
 # Jannis Leidel <jannis@leidel.info>, 2011
+# karthikbgl <karthikbgl@gmail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-19 16:49+0100\n"
-"PO-Revision-Date: 2017-09-19 16:41+0000\n"
+"POT-Creation-Date: 2017-09-24 13:46+0200\n"
+"PO-Revision-Date: 2017-09-24 14:24+0000\n"
 "Last-Translator: Jannis Leidel <jannis@leidel.info>\n"
 "Language-Team: Kannada (http://www.transifex.com/django/django/language/"
 "kn/)\n"
@@ -17,623 +18,268 @@ msgstr ""
 "Language: kn\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#, python-format
-msgid "Successfully deleted %(count)d %(items)s."
-msgstr ""
+msgid "Personal info"
+msgstr "ವೈಯುಕ್ತಿಕ ಮಾಹಿತಿ"
+
+msgid "Permissions"
+msgstr "ಅನುಮತಿಗಳು"
+
+msgid "Important dates"
+msgstr "ಮಹತ್ವದ ದಿನಾಂಕಗಳು"
 
 #, python-format
-msgid "Cannot delete %(name)s"
+msgid "%(name)s object with primary key %(key)r does not exist."
 msgstr ""
 
-msgid "Are you sure?"
-msgstr "ಖಚಿತಪಡಿಸುವಿರಾ? "
+msgid "Password changed successfully."
+msgstr "ಪಾಸ್ವರ್ಡ್ ಸಫಲವಾಗಿ ಬದಲಾಯಿಸಲಾಯಿತು"
 
 #, python-format
-msgid "Delete selected %(verbose_name_plural)s"
+msgid "Change password: %s"
+msgstr "ಪಾಸ್ವರ್ಡ್ ಬದಲಾಯಿಸಲು: %s"
+
+msgid "Authentication and Authorization"
 msgstr ""
 
-msgid "Administration"
+msgid "password"
+msgstr "ಪ್ರವೇಶಪದ"
+
+msgid "last login"
+msgstr "ಕಡೇ ಸಾರಿ ಒಳಬಂದದ್ದು"
+
+msgid "No password set."
 msgstr ""
 
-msgid "All"
-msgstr "ಎಲ್ಲಾ"
-
-msgid "Yes"
-msgstr "ಹೌದು"
-
-msgid "No"
-msgstr "ಇಲ್ಲ"
-
-msgid "Unknown"
-msgstr "ಗೊತ್ತಿಲ್ಲ(ದ/ದ್ದು)"
-
-msgid "Any date"
-msgstr "ಯಾವುದೇ ದಿನಾಂಕ"
-
-msgid "Today"
-msgstr "ಈದಿನ"
-
-msgid "Past 7 days"
-msgstr "ಕಳೆದ ೭ ದಿನಗಳು"
-
-msgid "This month"
-msgstr "ಈ ತಿಂಗಳು"
-
-msgid "This year"
-msgstr "ಈ ವರ್ಷ"
-
-msgid "No date"
+msgid "Invalid password format or unknown hashing algorithm."
 msgstr ""
 
-msgid "Has date"
+msgid "The two password fields didn't match."
+msgstr "ಎರಡು ಪ್ರವೇಶಪದ ಕ್ಷೇತ್ರಗಳ ಹೊಂದಿಕೆಯಾಗುತ್ತಿಲ್ಲ"
+
+msgid "Password"
+msgstr "ಪ್ರವೇಶಪದ"
+
+msgid "Password confirmation"
+msgstr "ಪಾಸ್ವರ್ಡ್ ಖಚಿತತೆ"
+
+msgid "Enter the same password as before, for verification."
+msgstr ""
+
+msgid ""
+"Raw passwords are not stored, so there is no way to see this user's "
+"password, but you can change the password using <a href=\"{}\">this form</a>."
 msgstr ""
 
 #, python-format
 msgid ""
-"Please enter the correct %(username)s and password for a staff account. Note "
-"that both fields may be case-sensitive."
+"Please enter a correct %(username)s and password. Note that both fields may "
+"be case-sensitive."
 msgstr ""
 
-msgid "Action:"
+msgid "This account is inactive."
+msgstr "ಈ ಖಾತೆಯು ನಿಷ್ಕ್ರಿಯವಾಗಿದೆ"
+
+msgid "Email"
 msgstr ""
 
-#, python-format
-msgid "Add another %(verbose_name)s"
+msgid "New password"
+msgstr "ಹೊಸ ಪ್ರವೇಶಪದ"
+
+msgid "New password confirmation"
+msgstr "ಹೊಸ ಪ್ರವೇಶಪದ ಖಚಿತತೆ"
+
+msgid "Your old password was entered incorrectly. Please enter it again."
+msgstr "ನಿಮ್ಮ ಹಳೆಯ ಪ್ರವೇಶಪದ ತಪ್ಪಾಗಿ ಪ್ರವೇಶಿಸಲಾಗಿದೆ ಮತ್ತೆ ದಯವಿಟ್ಟು ನಮೂದಿಸಿ"
+
+msgid "Old password"
+msgstr "ಹಳೆಯ ಪ್ರವೇಶಪದ"
+
+msgid "Password (again)"
+msgstr "ಪ್ರವೇಶಪದ(ಇನ್ನೊಮ್ಮೆ)"
+
+msgid "algorithm"
 msgstr ""
 
-msgid "Remove"
-msgstr "ತೆಗೆದು ಹಾಕಿ"
-
-msgid "action time"
-msgstr "ಕ್ರಮದ(ಕ್ರಿಯೆಯ) ಸಮಯ"
-
-msgid "user"
+msgid "iterations"
 msgstr ""
+
+msgid "salt"
+msgstr ""
+
+msgid "hash"
+msgstr ""
+
+msgid "variety"
+msgstr ""
+
+msgid "version"
+msgstr ""
+
+msgid "memory cost"
+msgstr ""
+
+msgid "time cost"
+msgstr ""
+
+msgid "parallelism"
+msgstr ""
+
+msgid "work factor"
+msgstr ""
+
+msgid "checksum"
+msgstr ""
+
+msgid "name"
+msgstr "ಹೆಸರು"
 
 msgid "content type"
 msgstr ""
 
-msgid "object id"
-msgstr "ವಸ್ತುವಿನ ಐಡಿ"
+msgid "codename"
+msgstr "ಸಾಂಕೇತಿಕ ಹೆಸರು"
 
-#. Translators: 'repr' means representation
-#. (https://docs.python.org/3/library/functions.html#repr)
-msgid "object repr"
-msgstr "ವಸ್ತು ಪ್ರಾತಿನಿಧ್ಯ"
+msgid "permission"
+msgstr "ಅನುಮತಿ"
 
-msgid "action flag"
-msgstr "ಕ್ರಮದ(ಕ್ರಿಯೆಯ) ಪತಾಕೆ"
+msgid "permissions"
+msgstr "ಅನುಮತಿಗಳು"
 
-msgid "change message"
-msgstr "ಬದಲಾವಣೆಯ ಸಂದೇಶ/ಸಂದೇಶ ಬದಲಿಸಿ"
+msgid "group"
+msgstr "ಗುಂಪು"
 
-msgid "log entry"
-msgstr "ಲಾಗ್ ದಾಖಲೆ"
+msgid "groups"
+msgstr "ಗುಂಪುಗಳು"
 
-msgid "log entries"
-msgstr "ಲಾಗ್ ದಾಖಲೆಗಳು"
-
-#, python-format
-msgid "Added \"%(object)s\"."
-msgstr ""
-
-#, python-format
-msgid "Changed \"%(object)s\" - %(changes)s"
-msgstr ""
-
-#, python-format
-msgid "Deleted \"%(object)s.\""
-msgstr ""
-
-msgid "LogEntry Object"
-msgstr ""
-
-#, python-brace-format
-msgid "Added {name} \"{object}\"."
-msgstr ""
-
-msgid "Added."
-msgstr ""
-
-msgid "and"
-msgstr "ಮತ್ತು"
-
-#, python-brace-format
-msgid "Changed {fields} for {name} \"{object}\"."
-msgstr ""
-
-#, python-brace-format
-msgid "Changed {fields}."
-msgstr ""
-
-#, python-brace-format
-msgid "Deleted {name} \"{object}\"."
-msgstr ""
-
-msgid "No fields changed."
-msgstr "ಯಾವುದೇ ಅಂಶಗಳು ಬದಲಾಗಲಿಲ್ಲ."
-
-msgid "None"
-msgstr ""
+msgid "superuser status"
+msgstr "ಮಹಾಬಳಕೆದಾರನ ಸ್ಧಿತಿ"
 
 msgid ""
-"Hold down \"Control\", or \"Command\" on a Mac, to select more than one."
+"Designates that this user has all permissions without explicitly assigning "
+"them."
 msgstr ""
-
-#, python-brace-format
-msgid ""
-"The {name} \"{obj}\" was added successfully. You may edit it again below."
-msgstr ""
-
-#, python-brace-format
-msgid ""
-"The {name} \"{obj}\" was added successfully. You may add another {name} "
-"below."
-msgstr ""
-
-#, python-brace-format
-msgid "The {name} \"{obj}\" was added successfully."
-msgstr ""
-
-#, python-brace-format
-msgid ""
-"The {name} \"{obj}\" was changed successfully. You may edit it again below."
-msgstr ""
-
-#, python-brace-format
-msgid ""
-"The {name} \"{obj}\" was changed successfully. You may add another {name} "
-"below."
-msgstr ""
-
-#, python-brace-format
-msgid "The {name} \"{obj}\" was changed successfully."
-msgstr ""
+"ಈ ಸದಸ್ಯರು ಸುವ್ಯಕ್ತವಾಗಿ  ನೀಡದಿದ್ದರೂ ಎಲ್ಲಾ ಅನುಮತಿಗಳನ್ನು ಪಡೆದಿರುವರು ಎಂಬುದನ್ನು "
+"ಸೂಚಿಸುತ್ತದೆ."
 
 msgid ""
-"Items must be selected in order to perform actions on them. No items have "
-"been changed."
+"The groups this user belongs to. A user will get all permissions granted to "
+"each of their groups."
 msgstr ""
 
-msgid "No action selected."
+msgid "user permissions"
+msgstr "ಬಳಕೆದಾರ ಅನುಮತಿಗಳು"
+
+msgid "Specific permissions for this user."
 msgstr ""
 
-#, python-format
-msgid "The %(name)s \"%(obj)s\" was deleted successfully."
-msgstr "%(name)s \"%(obj)s\" ಯಶಸ್ವಿಯಾಗಿ ಅಳಿಸಲಾಯಿತು."
+msgid "username"
+msgstr "ಬಳಕೆದಾರ-ಹೆಸರು"
 
-#, python-format
-msgid "%(name)s with ID \"%(key)s\" doesn't exist. Perhaps it was deleted?"
+msgid "Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only."
 msgstr ""
 
-#, python-format
-msgid "Add %s"
-msgstr "%s ಸೇರಿಸಿ"
+msgid "A user with that username already exists."
+msgstr "ಆ ಬಳಕೆದಾರಹೆಸರು ಒಂದು ಬಳಕೆದಾರ ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ."
 
-#, python-format
-msgid "Change %s"
-msgstr "%s ಅನ್ನು ಬದಲಿಸು"
+msgid "first name"
+msgstr "ಮೊದಲ ಹೆಸರು"
 
-msgid "Database error"
-msgstr "ದತ್ತಸಂಚಯದ ದೋಷ"
+msgid "last name"
+msgstr "ಕೊನೆಯ ಹೆಸರು"
 
-#, python-format
-msgid "%(count)s %(name)s was changed successfully."
-msgid_plural "%(count)s %(name)s were changed successfully."
-msgstr[0] ""
-
-#, python-format
-msgid "%(total_count)s selected"
-msgid_plural "All %(total_count)s selected"
-msgstr[0] ""
-
-#, python-format
-msgid "0 of %(cnt)s selected"
+msgid "email address"
 msgstr ""
 
-#, python-format
-msgid "Change history: %s"
-msgstr "ಬದಲಾವಣೆಗಳ ಇತಿಹಾಸ: %s"
+msgid "staff status"
+msgstr "ಸಿಬ್ಬಂದಿ ಸ್ಥಿತಿ"
 
-#. Translators: Model verbose name and instance representation,
-#. suitable to be an item in a list.
-#, python-format
-msgid "%(class_name)s %(instance)s"
-msgstr ""
+msgid "Designates whether the user can log into this admin site."
+msgstr "ಬಲಕೆದಾರರು ಈ ಆಡಳಿತ ತಾಣಕ್ಕೆ  ಪ್ರವೇಶಪಡೆಯಬಹುದೇ ಎಂಬುದನ್ನು ತಿಳಿಸುತ್ತದೆ."
 
-#, python-format
-msgid ""
-"Deleting %(class_name)s %(instance)s would require deleting the following "
-"protected related objects: %(related_objects)s"
-msgstr ""
-
-msgid "Django site admin"
-msgstr "ಜಾಂಗೋ ತಾಣದ ಆಡಳಿತಗಾರರು"
-
-msgid "Django administration"
-msgstr "ಜಾಂಗೋ ಆಡಳಿತ"
-
-msgid "Site administration"
-msgstr "ತಾಣ ನಿರ್ವಹಣೆ"
-
-msgid "Log in"
-msgstr "ಒಳಗೆ ಬನ್ನಿ"
-
-#, python-format
-msgid "%(app)s administration"
-msgstr ""
-
-msgid "Page not found"
-msgstr "ಪುಟ ಸಿಗಲಿಲ್ಲ"
-
-msgid "We're sorry, but the requested page could not be found."
-msgstr "ಕ್ಷಮಿಸಿ, ನೀವು ಕೇಳಿದ ಪುಟ ಸಿಗಲಿಲ್ಲ"
-
-msgid "Home"
-msgstr "ಪ್ರಾರಂಭಸ್ಥಳ(ಮನೆ)"
-
-msgid "Server error"
-msgstr "ಸರ್ವರ್ ದೋಷ"
-
-msgid "Server error (500)"
-msgstr "ಸರ್ವರ್ ದೋಷ(೫೦೦)"
-
-msgid "Server Error <em>(500)</em>"
-msgstr "ಸರ್ವರ್ ದೋಷ<em>(೫೦೦)</em>"
+msgid "active"
+msgstr "ಸಕ್ರಿಯ"
 
 msgid ""
-"There's been an error. It's been reported to the site administrators via "
-"email and should be fixed shortly. Thanks for your patience."
+"Designates whether this user should be treated as active. Unselect this "
+"instead of deleting accounts."
 msgstr ""
 
-msgid "Run the selected action"
-msgstr ""
+msgid "date joined"
+msgstr "ಸೇರಿದ ದಿನಾಂಕ"
 
-msgid "Go"
-msgstr "ಹೋಗಿ"
-
-msgid "Click here to select the objects across all pages"
-msgstr ""
-
-#, python-format
-msgid "Select all %(total_count)s %(module_name)s"
-msgstr ""
-
-msgid "Clear selection"
-msgstr ""
-
-msgid ""
-"First, enter a username and password. Then, you'll be able to edit more user "
-"options."
-msgstr ""
-"ಮೊದಲು ಬಳಕೆದಾರ-ಹೆಸರು ಮತ್ತು ಪ್ರವೇಶಪದವನ್ನು ಕೊಡಿರಿ. ನಂತರ, ನೀವು ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗಳನ್ನು  "
-"ಬದಲಿಸಬಹುದಾಗಿದೆ."
-
-msgid "Enter a username and password."
-msgstr ""
-
-msgid "Change password"
-msgstr "ಪ್ರವೇಶಪದ ಬದಲಿಸಿ"
-
-msgid "Please correct the error below."
-msgstr ""
-
-msgid "Please correct the errors below."
-msgstr ""
-
-#, python-format
-msgid "Enter a new password for the user <strong>%(username)s</strong>."
-msgstr ""
-
-msgid "Welcome,"
-msgstr "ಸುಸ್ವಾಗತ."
-
-msgid "View site"
-msgstr ""
-
-msgid "Documentation"
-msgstr "ವಿವರಮಾಹಿತಿ"
-
-msgid "Log out"
-msgstr "ಹೊರಕ್ಕೆ ಹೋಗಿ"
-
-#, python-format
-msgid "Add %(name)s"
-msgstr "%(name)s ಸೇರಿಸಿ"
-
-msgid "History"
-msgstr "ಚರಿತ್ರೆ"
-
-msgid "View on site"
-msgstr "ತಾಣದಲ್ಲಿ ನೋಡಿ"
-
-msgid "Filter"
-msgstr "ಸೋಸಕ"
-
-msgid "Remove from sorting"
-msgstr ""
-
-#, python-format
-msgid "Sorting priority: %(priority_number)s"
-msgstr ""
-
-msgid "Toggle sorting"
-msgstr ""
-
-msgid "Delete"
-msgstr "ಅಳಿಸಿಹಾಕಿ"
-
-#, python-format
-msgid ""
-"Deleting the %(object_name)s '%(escaped_object)s' would result in deleting "
-"related objects, but your account doesn't have permission to delete the "
-"following types of objects:"
-msgstr ""
-"'%(escaped_object)s'  %(object_name)s ಅನ್ನು ತೆಗೆದುಹಾಕುವುದರಿಂದ ಸಂಬಂಧಿತ ವಸ್ತುಗಳೂ "
-"ಕಳೆದುಹೋಗುತ್ತವೆ. ಆದರೆ ನಿಮ್ಮ ಖಾತೆಗೆ ಕೆಳಕಂಡ ಬಗೆಗಳ ವಸ್ತುಗಳನ್ನು ತೆಗೆದುಹಾಕಲು "
-"ಅನುಮತಿಯಿಲ್ಲ."
-
-#, python-format
-msgid ""
-"Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
-"following protected related objects:"
-msgstr ""
-
-#, python-format
-msgid ""
-"Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
-"All of the following related items will be deleted:"
-msgstr ""
-
-msgid "Objects"
-msgstr ""
-
-msgid "Yes, I'm sure"
-msgstr "ಹೌದು,ನನಗೆ ಖಚಿತವಿದೆ"
-
-msgid "No, take me back"
-msgstr ""
-
-msgid "Delete multiple objects"
-msgstr ""
-
-#, python-format
-msgid ""
-"Deleting the selected %(objects_name)s would result in deleting related "
-"objects, but your account doesn't have permission to delete the following "
-"types of objects:"
-msgstr ""
-
-#, python-format
-msgid ""
-"Deleting the selected %(objects_name)s would require deleting the following "
-"protected related objects:"
-msgstr ""
-
-#, python-format
-msgid ""
-"Are you sure you want to delete the selected %(objects_name)s? All of the "
-"following objects and their related items will be deleted:"
-msgstr ""
-
-msgid "Change"
-msgstr "ಬದಲಿಸಿ/ಬದಲಾವಣೆ"
-
-msgid "Delete?"
-msgstr ""
-
-#, python-format
-msgid " By %(filter_title)s "
-msgstr "%(filter_title)s ಇಂದ"
-
-msgid "Summary"
-msgstr ""
-
-#, python-format
-msgid "Models in the %(name)s application"
-msgstr ""
-
-msgid "Add"
-msgstr "ಸೇರಿಸಿ"
-
-msgid "You don't have permission to edit anything."
-msgstr "ಯಾವುದನ್ನೂ ತಿದ್ದಲು ನಿಮಗೆ ಅನುಮತಿ ಇಲ್ಲ ."
-
-msgid "Recent actions"
-msgstr ""
-
-msgid "My actions"
-msgstr ""
-
-msgid "None available"
-msgstr "ಯಾವುದೂ ಲಭ್ಯವಿಲ್ಲ"
-
-msgid "Unknown content"
-msgstr ""
-
-msgid ""
-"Something's wrong with your database installation. Make sure the appropriate "
-"database tables have been created, and make sure the database is readable by "
-"the appropriate user."
-msgstr ""
-"ಡಾಟಾಬೇಸನ್ನು ಇನ್ಸ್ಟಾಲ್ ಮಾಡುವಾಗ ಏನೋ ತಪ್ಪಾಗಿದೆ. ಸೂಕ್ತ  ಡಾಟಾಬೇಸ್ ಕೋಷ್ಟಕಗಳು ರಚನೆಯಾಗಿ ಅರ್ಹ "
-"ಬಳಕೆದಾರರು ಅವುಗಳನ್ನು ಓದಬಹುದಾಗಿದೆಯೇ ಎಂಬುದನ್ನು ಖಾತರಿ ಪಡಿಸಿಕೊಳ್ಳಿ."
-
-#, python-format
-msgid ""
-"You are authenticated as %(username)s, but are not authorized to access this "
-"page. Would you like to login to a different account?"
-msgstr ""
-
-msgid "Forgotten your password or username?"
-msgstr ""
-
-msgid "Date/time"
-msgstr "ದಿನಾಂಕ/ಸಮಯ"
-
-msgid "User"
+msgid "user"
 msgstr "ಬಳಕೆದಾರ"
 
-msgid "Action"
-msgstr "ಕ್ರಮ(ಕ್ರಿಯೆ)"
+msgid "users"
+msgstr "ಬಳಕೆದಾರರು"
 
+#, python-format
 msgid ""
-"This object doesn't have a change history. It probably wasn't added via this "
-"admin site."
-msgstr ""
-"ಈ ವಸ್ತುವಿಗೆ ಬದಲಾವಣೆಯ ಇತಿಹಾಸವಿಲ್ಲ. ಅದು ಬಹುಶಃ ಈ ಆಡಳಿತತಾಣದ ಮೂಲಕ ಸೇರಿಸಲ್ಪಟ್ಟಿಲ್ಲ."
-
-msgid "Show all"
-msgstr "ಎಲ್ಲವನ್ನೂ ತೋರಿಸು"
-
-msgid "Save"
-msgstr "ಉಳಿಸಿ"
-
-msgid "Popup closing..."
-msgstr ""
-
-#, python-format
-msgid "Change selected %(model)s"
-msgstr ""
-
-#, python-format
-msgid "Add another %(model)s"
-msgstr ""
-
-#, python-format
-msgid "Delete selected %(model)s"
-msgstr ""
-
-msgid "Search"
-msgstr ""
-
-#, python-format
-msgid "%(counter)s result"
-msgid_plural "%(counter)s results"
+"This password is too short. It must contain at least %(min_length)d "
+"character."
+msgid_plural ""
+"This password is too short. It must contain at least %(min_length)d "
+"characters."
 msgstr[0] ""
 
 #, python-format
-msgid "%(full_result_count)s total"
-msgstr "ಒಟ್ಟು %(full_result_count)s"
+msgid "Your password must contain at least %(min_length)d character."
+msgid_plural "Your password must contain at least %(min_length)d characters."
+msgstr[0] ""
 
-msgid "Save as new"
-msgstr "ಹೊಸದರಂತೆ ಉಳಿಸಿ"
+#, python-format
+msgid "The password is too similar to the %(verbose_name)s."
+msgstr ""
 
-msgid "Save and add another"
-msgstr "ಉಳಿಸಿ ಮತ್ತು ಇನ್ನೊಂದನ್ನು ಸೇರಿಸಿ"
+msgid "Your password can't be too similar to your other personal information."
+msgstr ""
 
-msgid "Save and continue editing"
-msgstr "ಉಳಿಸಿ ಮತ್ತು ತಿದ್ದುವುದನ್ನು ಮುಂದುವರಿಸಿರಿ."
+msgid "This password is too common."
+msgstr ""
 
-msgid "Thanks for spending some quality time with the Web site today."
-msgstr "ಈದಿನ ತಮ್ಮ ಅತ್ಯಮೂಲ್ಯವಾದ ಸಮಯವನ್ನು ನಮ್ಮ ತಾಣದಲ್ಲಿ ಕಳೆದುದಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು."
+msgid "Your password can't be a commonly used password."
+msgstr ""
 
-msgid "Log in again"
-msgstr "ಮತ್ತೆ ಒಳಬನ್ನಿ"
+msgid "This password is entirely numeric."
+msgstr ""
 
-msgid "Password change"
-msgstr "ಪ್ರವೇಶಪದ ಬದಲಾವಣೆ"
+msgid "Your password can't be entirely numeric."
+msgstr ""
 
-msgid "Your password was changed."
-msgstr "ನಿಮ್ಮ ಪ್ರವೇಶಪದ ಬದಲಾಯಿಸಲಾಗಿದೆ"
+#, python-format
+msgid "Password reset on %(site_name)s"
+msgstr ""
 
 msgid ""
-"Please enter your old password, for security's sake, and then enter your new "
-"password twice so we can verify you typed it in correctly."
+"Enter a valid username. This value may contain only English letters, "
+"numbers, and @/./+/-/_ characters."
 msgstr ""
-"ಭದ್ರತೆಯ ದೃಷ್ಟಿಯಿಂದ ದಯವಿಟ್ಟು ನಿಮ್ಮ ಹಳೆಯ ಪ್ರವೇಶಪದವನ್ನು ಸೂಚಿಸಿರಿ. ಆನಂತರ ನೀವು ಸರಿಯಾಗಿ "
-"ಬರೆದಿದ್ದೀರೆಂದು ನಾವು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು   ಹೊಸ ಪ್ರವೇಶಪದವನ್ನು ಎರಡು ಬಾರಿ ಬರೆಯಿರಿ."
 
-msgid "Change my password"
-msgstr "ನನ್ನ ಪ್ರವೇಶಪದ ಬದಲಿಸಿ"
+msgid ""
+"Enter a valid username. This value may contain only letters, numbers, and "
+"@/./+/-/_ characters."
+msgstr ""
+
+msgid "Logged out"
+msgstr "ಹೊರಬರಲಾಗಿದೆ"
 
 msgid "Password reset"
-msgstr "ಪ್ರವೇಶಪದವನ್ನು ಬದಲಿಸುವಿಕೆ"
-
-msgid "Your password has been set.  You may go ahead and log in now."
 msgstr ""
 
-msgid "Password reset confirmation"
+msgid "Password reset sent"
 msgstr ""
 
-msgid ""
-"Please enter your new password twice so we can verify you typed it in "
-"correctly."
+msgid "Enter new password"
 msgstr ""
 
-msgid "New password:"
-msgstr "ಹೊಸ ಪ್ರವೇಶಪದ:"
-
-msgid "Confirm password:"
-msgstr "ಪ್ರವೇಶಪದವನ್ನು ಖಚಿತಪಡಿಸಿ:"
-
-msgid ""
-"The password reset link was invalid, possibly because it has already been "
-"used.  Please request a new password reset."
+msgid "Password reset unsuccessful"
 msgstr ""
 
-msgid ""
-"We've emailed you instructions for setting your password, if an account "
-"exists with the email you entered. You should receive them shortly."
+msgid "Password reset complete"
 msgstr ""
 
-msgid ""
-"If you don't receive an email, please make sure you've entered the address "
-"you registered with, and check your spam folder."
+msgid "Password change"
 msgstr ""
 
-#, python-format
-msgid ""
-"You're receiving this email because you requested a password reset for your "
-"user account at %(site_name)s."
-msgstr ""
-
-msgid "Please go to the following page and choose a new password:"
-msgstr ""
-
-msgid "Your username, in case you've forgotten:"
-msgstr "ನೀವು ಮರೆತಿದ್ದಲ್ಲಿ , ನಿಮ್ಮ ಬಳಕೆದಾರ-ಹೆಸರು"
-
-msgid "Thanks for using our site!"
-msgstr "ನಮ್ಮ ತಾಣವನ್ನು ಬಳಸಿದ್ದಕ್ದಾಗಿ ಧನ್ಯವಾದಗಳು!"
-
-#, python-format
-msgid "The %(site_name)s team"
-msgstr "%(site_name)s ತಂಡ"
-
-msgid ""
-"Forgotten your password? Enter your email address below, and we'll email "
-"instructions for setting a new one."
-msgstr ""
-
-msgid "Email address:"
-msgstr ""
-
-msgid "Reset my password"
-msgstr "ನನ್ನ ಪ್ರವೇಶಪದವನ್ನು ಮತ್ತೆ ನಿರ್ಧರಿಸಿ "
-
-msgid "All dates"
-msgstr "ಎಲ್ಲಾ ದಿನಾಂಕಗಳು"
-
-#, python-format
-msgid "Select %s"
-msgstr "%s ಆಯ್ದುಕೊಳ್ಳಿ"
-
-#, python-format
-msgid "Select %s to change"
-msgstr "ಬದಲಾಯಿಸಲು %s ಆಯ್ದುಕೊಳ್ಳಿ"
-
-msgid "Date:"
-msgstr "ದಿನಾಂಕ:"
-
-msgid "Time:"
-msgstr "ಸಮಯ:"
-
-msgid "Lookup"
-msgstr ""
-
-msgid "Currently:"
-msgstr ""
-
-msgid "Change:"
+msgid "Password change successful"
 msgstr ""
