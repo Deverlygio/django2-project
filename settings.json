@@ -1,0 +1,14 @@
+{
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": []
+    },
+    "html.validate.scripts": false,
+    "html.validate.styles": false,
+    "javascript.validate.enable": false,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/db.sqlite3": true
+    }
+}
