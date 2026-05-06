@@ -18,20 +18,20 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != "
 "11) ? 2 : 3;\n"
 
-msgid "Sessions"
-msgstr "Sesiynau"
+msgid "Sites"
+msgstr "Safleoedd"
 
-msgid "session key"
-msgstr "allwedd sesiwn"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "Ni all yr enw parth gynnwys bylchau neu dabiau."
 
-msgid "session data"
-msgstr "data sesiwn"
+msgid "domain name"
+msgstr "enw parth"
 
-msgid "expire date"
-msgstr "dyddiad terfyn"
+msgid "display name"
+msgstr "enw arddangos"
 
-msgid "session"
-msgstr "sesiwn"
+msgid "site"
+msgstr "safle"
 
-msgid "sessions"
-msgstr "sesiynau"
+msgid "sites"
+msgstr "safleoedd"

@@ -2,17 +2,14 @@
 #
 # Translators:
 # Oleksandr Chernihov <o.chernihov@gmail.com>, 2014
-# Illia Volochii <illia.volochii@gmail.com>, 2021
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Mykola Zamkovoi <nickzam@gmail.com>, 2014
-# Vitaliy Kozlovskyi <ubombi@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-15 09:00+0100\n"
-"PO-Revision-Date: 2021-01-20 00:12+0000\n"
-"Last-Translator: Illia Volochii <illia.volochii@gmail.com>\n"
+"POT-Creation-Date: 2015-01-17 11:07+0100\n"
+"PO-Revision-Date: 2017-09-23 18:54+0000\n"
+"Last-Translator: Mykola Zamkovoi <nickzam@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/django/django/language/"
 "uk/)\n"
 "MIME-Version: 1.0\n"
@@ -24,33 +21,20 @@ msgstr ""
 "100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
 "(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
-msgid "Redirects"
-msgstr "Перенаправлення"
+msgid "Sessions"
+msgstr "Сесії"
 
-msgid "site"
-msgstr "сайт"
+msgid "session key"
+msgstr "ключ сесії"
 
-msgid "redirect from"
-msgstr "перенаправлення з"
+msgid "session data"
+msgstr "дані сесії"
 
-msgid ""
-"This should be an absolute path, excluding the domain name. Example: “/"
-"events/search/”."
-msgstr ""
-"Шлях має бути абсолютним без доменного імені. Наприклад, “/events/search/”."
+msgid "expire date"
+msgstr "термін придатності"
 
-msgid "redirect to"
-msgstr "перенаправлення до"
+msgid "session"
+msgstr "сесія"
 
-msgid ""
-"This can be either an absolute path (as above) or a full URL starting with a "
-"scheme such as “https://”."
-msgstr ""
-"Шлях може бути або абсолютним (як вказано вище), або повним URL (який "
-"починається із схеми, як-от “https://”)."
-
-msgid "redirect"
-msgstr "перенаправлення"
-
-msgid "redirects"
-msgstr "перенаправлення"
+msgid "sessions"
+msgstr "сесії"

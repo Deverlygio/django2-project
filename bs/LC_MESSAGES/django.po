@@ -18,20 +18,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-msgid "Sessions"
+msgid "Sites"
 msgstr ""
 
-msgid "session key"
-msgstr "ključ sesije"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr ""
 
-msgid "session data"
-msgstr "podaci sesije"
+msgid "domain name"
+msgstr "ime domena"
 
-msgid "expire date"
-msgstr "datum isteka"
+msgid "display name"
+msgstr "prikazano ime"
 
-msgid "session"
-msgstr "sesija"
+msgid "site"
+msgstr "sajt"
 
-msgid "sessions"
-msgstr "sesije"
+msgid "sites"
+msgstr "sajtovi"

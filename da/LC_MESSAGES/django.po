@@ -1,7 +1,7 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Erik Wognsen <r4mses@gmail.com>, 2014
+# Erik Wognsen <r4mses@gmail.com>, 2013-2014
 # Jannis Leidel <jannis@leidel.info>, 2011
 msgid ""
 msgstr ""
@@ -17,20 +17,20 @@ msgstr ""
 "Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sessions"
-msgstr "Sessioner"
+msgid "Sites"
+msgstr "Websider"
 
-msgid "session key"
-msgstr "sessionsnøgle"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "Domænenavnet må ikke indeholde mellemrum eller tabulatorer."
 
-msgid "session data"
-msgstr "sessionsdata"
+msgid "domain name"
+msgstr "domænenavn"
 
-msgid "expire date"
-msgstr "udløbsdato"
+msgid "display name"
+msgstr "vist navn"
 
-msgid "session"
-msgstr "session"
+msgid "site"
+msgstr "webside"
 
-msgid "sessions"
-msgstr "sessioner"
+msgid "sites"
+msgstr "websider"

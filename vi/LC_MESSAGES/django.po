@@ -2,11 +2,13 @@
 #
 # Translators:
 # Jannis Leidel <jannis@leidel.info>, 2011
+# Thanh Le Viet <lethanhx2k@gmail.com>, 2013
+# Tran Van <vantxm@yahoo.co.uk>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 17:42+0200\n"
+"POT-Creation-Date: 2015-01-17 11:07+0100\n"
 "PO-Revision-Date: 2017-09-23 18:54+0000\n"
 "Last-Translator: Tran Van <vantxm@yahoo.co.uk>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/django/django/language/"
@@ -17,33 +19,20 @@ msgstr ""
 "Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Redirects"
+msgid "Sessions"
 msgstr ""
 
-msgid "site"
-msgstr ""
+msgid "session key"
+msgstr "session key"
 
-msgid "redirect from"
-msgstr "Chuyển hướng từ"
+msgid "session data"
+msgstr "session data"
 
-msgid ""
-"This should be an absolute path, excluding the domain name. Example: '/"
-"events/search/'."
-msgstr ""
-"Đây phải là đường dẫn tuyệt đối, không bao gồm tên miền. Ví dụ: '/events/"
-"search/'."
+msgid "expire date"
+msgstr "Ngày hết hạn"
 
-msgid "redirect to"
-msgstr "Chuyển hướng tới"
+msgid "session"
+msgstr "Phiên"
 
-msgid ""
-"This can be either an absolute path (as above) or a full URL starting with "
-"'http://'."
-msgstr ""
-"Đây có thể là đường dẫn tuyệt đối hoặc địa chỉ đầy đủ bắt đầu với 'http://'"
-
-msgid "redirect"
-msgstr "Chuyển hướng"
-
-msgid "redirects"
-msgstr "Chuyển hướng"
+msgid "sessions"
+msgstr "session"

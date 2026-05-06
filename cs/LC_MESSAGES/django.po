@@ -2,7 +2,7 @@
 #
 # Translators:
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Vláďa Macek <macek@sandbox.cz>, 2014
+# Vláďa Macek <macek@sandbox.cz>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
@@ -18,20 +18,20 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
-msgid "Sessions"
-msgstr "Sezení"
+msgid "Sites"
+msgstr "Weby"
 
-msgid "session key"
-msgstr "klíč sezení"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "Název domény nemůže obsahovat mezery ani tabulátory."
 
-msgid "session data"
-msgstr "data sezení"
+msgid "domain name"
+msgstr "název domény"
 
-msgid "expire date"
-msgstr "datum expirace"
+msgid "display name"
+msgstr "zobrazený název"
 
-msgid "session"
-msgstr "sezení"
+msgid "site"
+msgstr "web"
 
-msgid "sessions"
-msgstr "sezení"
+msgid "sites"
+msgstr "weby"

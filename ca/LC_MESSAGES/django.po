@@ -1,6 +1,7 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
+# Antoni Aloy <aaloy@apsl.net>, 2013
 # Carles Barrobés <carles@barrobes.com>, 2014
 # Jannis Leidel <jannis@leidel.info>, 2011
 msgid ""
@@ -18,20 +19,20 @@ msgstr ""
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sessions"
-msgstr "Sessions"
+msgid "Sites"
+msgstr "Llocs"
 
-msgid "session key"
-msgstr "clau de la sessió"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "El nom de domini no pot contenir cap espai ni tabuladors."
 
-msgid "session data"
-msgstr "dades de la sessió"
+msgid "domain name"
+msgstr "nom del domini"
 
-msgid "expire date"
-msgstr "data de caducitat"
+msgid "display name"
+msgstr "nom per mostrar"
 
-msgid "session"
-msgstr "sessió"
+msgid "site"
+msgstr "lloc"
 
-msgid "sessions"
-msgstr "sessions"
+msgid "sites"
+msgstr "llocs"
