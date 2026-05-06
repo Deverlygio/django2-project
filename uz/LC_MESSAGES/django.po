@@ -1,99 +1,105 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# v_ildar <v_ildar@bk.ru>, 2014
+# Bedilbek Khamidov <bedilbek@gmail.com>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-24 13:46+0200\n"
-"PO-Revision-Date: 2017-09-24 14:24+0000\n"
-"Last-Translator: Jannis Leidel <jannis@leidel.info>\n"
-"Language-Team: Tatar (http://www.transifex.com/django/django/language/tt/)\n"
+"POT-Creation-Date: 2019-09-08 17:27+0200\n"
+"PO-Revision-Date: 2019-12-29 16:31+0000\n"
+"Last-Translator: Bedilbek Khamidov <bedilbek@gmail.com>\n"
+"Language-Team: Uzbek (http://www.transifex.com/django/django/language/uz/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: tt\n"
+"Language: uz\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Personal info"
-msgstr ""
+msgstr "Shaxsiy ma'lumotlar"
 
 msgid "Permissions"
-msgstr ""
+msgstr "Ruhsatnomalar"
 
 msgid "Important dates"
-msgstr ""
+msgstr "Muhim sanalar"
 
 #, python-format
 msgid "%(name)s object with primary key %(key)r does not exist."
-msgstr ""
+msgstr "%(key)r asosiy kalitli %(name)s obyekt mavjud emas"
 
 msgid "Password changed successfully."
-msgstr ""
+msgstr "Parol muvaffaqiyatli o'zgartirildi."
 
 #, python-format
 msgid "Change password: %s"
-msgstr ""
+msgstr "Parolni o'zgartirish: %s"
 
 msgid "Authentication and Authorization"
-msgstr ""
+msgstr "Autentifikatsiya va Avtorizatsiya"
 
 msgid "password"
-msgstr "серсүз"
+msgstr "parol"
 
 msgid "last login"
-msgstr ""
+msgstr "oxirgi kirish"
 
 msgid "No password set."
-msgstr ""
+msgstr "Hech qanday parol qo'yilmagan."
 
 msgid "Invalid password format or unknown hashing algorithm."
-msgstr ""
+msgstr "Noto'g'ri parol formati yoki noma'lum heshlash algoritmi ishlatilgan."
 
-msgid "The two password fields didn't match."
-msgstr ""
+msgid "The two password fields didn’t match."
+msgstr "Ikkala parol maydoni bir-biriga mos kelmadi."
 
 msgid "Password"
-msgstr "Серсүз"
+msgstr "Parol"
 
 msgid "Password confirmation"
-msgstr ""
+msgstr "Parolni tasdiqlash"
 
 msgid "Enter the same password as before, for verification."
-msgstr ""
+msgstr "Tekshirish uchun avvalgi parolni kiriting.."
 
 msgid ""
-"Raw passwords are not stored, so there is no way to see this user's "
+"Raw passwords are not stored, so there is no way to see this user’s "
 "password, but you can change the password using <a href=\"{}\">this form</a>."
 msgstr ""
+"Xom parollar saqlanmaydi, shuning uchun bu foydanaluvchining parolini "
+"ko'rishni iloji yo'q, lekin siz <a href=\"{}\"> shu formadan </a> foydalanib "
+"parolni o'zgartirishingiz mumkin. "
 
 #, python-format
 msgid ""
 "Please enter a correct %(username)s and password. Note that both fields may "
 "be case-sensitive."
 msgstr ""
+"Iltimos, to'g'ri %(username)s va parolni kiriting. Ahamiyat bering, ikkala "
+"maydonlar ham katta-kichik harfga sezgir bo'lishi mumkin."
 
 msgid "This account is inactive."
-msgstr ""
+msgstr "Bu akkaunt nofaol"
 
 msgid "Email"
-msgstr "Эл. почта"
+msgstr "Elektron pochta"
 
 msgid "New password"
-msgstr "Яңа серсүз"
+msgstr "Yangi parol"
 
 msgid "New password confirmation"
-msgstr ""
+msgstr "Yangi parolni tasdiqlash"
 
 msgid "Your old password was entered incorrectly. Please enter it again."
 msgstr ""
+"Sizning eski parolingiz noto'g'ri kiritilgan edi. Iltimos, qaytadan kiriting."
 
 msgid "Old password"
-msgstr "Иске серсүз"
+msgstr ""
 
 msgid "Password (again)"
-msgstr "Серсүз (тагын бер тапкыр)"
+msgstr ""
 
 msgid "algorithm"
 msgstr ""
@@ -129,7 +135,7 @@ msgid "checksum"
 msgstr ""
 
 msgid "name"
-msgstr "исем"
+msgstr ""
 
 msgid "content type"
 msgstr ""
@@ -169,7 +175,7 @@ msgid "Specific permissions for this user."
 msgstr ""
 
 msgid "username"
-msgstr "кулланучы исеме"
+msgstr ""
 
 msgid "Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only."
 msgstr ""
@@ -184,7 +190,7 @@ msgid "last name"
 msgstr ""
 
 msgid "email address"
-msgstr "эл. почта адресы"
+msgstr ""
 
 msgid "staff status"
 msgstr ""
@@ -204,10 +210,10 @@ msgid "date joined"
 msgstr ""
 
 msgid "user"
-msgstr "кулланучы"
+msgstr ""
 
 msgid "users"
-msgstr "кулланучылар"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -227,19 +233,19 @@ msgstr[0] ""
 msgid "The password is too similar to the %(verbose_name)s."
 msgstr ""
 
-msgid "Your password can't be too similar to your other personal information."
+msgid "Your password can’t be too similar to your other personal information."
 msgstr ""
 
 msgid "This password is too common."
 msgstr ""
 
-msgid "Your password can't be a commonly used password."
+msgid "Your password can’t be a commonly used password."
 msgstr ""
 
 msgid "This password is entirely numeric."
 msgstr ""
 
-msgid "Your password can't be entirely numeric."
+msgid "Your password can’t be entirely numeric."
 msgstr ""
 
 #, python-format
@@ -260,13 +266,13 @@ msgid "Logged out"
 msgstr ""
 
 msgid "Password reset"
-msgstr "Серсүзне торгызу"
+msgstr ""
 
 msgid "Password reset sent"
 msgstr ""
 
 msgid "Enter new password"
-msgstr "Яңа серсүзне кертегез"
+msgstr ""
 
 msgid "Password reset unsuccessful"
 msgstr ""
@@ -275,7 +281,7 @@ msgid "Password reset complete"
 msgstr ""
 
 msgid "Password change"
-msgstr "Серсүзне үзгәртү"
+msgstr ""
 
 msgid "Password change successful"
-msgstr "Серсүз уңышлы рәвештә үзгәртелгән"
+msgstr ""
