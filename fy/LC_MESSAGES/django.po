@@ -16,27 +16,20 @@ msgstr ""
 "Language: fy\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Redirects"
+msgid "Sessions"
 msgstr ""
 
-msgid "redirect from"
+msgid "session key"
 msgstr ""
 
-msgid ""
-"This should be an absolute path, excluding the domain name. Example: '/"
-"events/search/'."
+msgid "session data"
 msgstr ""
 
-msgid "redirect to"
+msgid "expire date"
 msgstr ""
 
-msgid ""
-"This can be either an absolute path (as above) or a full URL starting with "
-"'http://'."
+msgid "session"
 msgstr ""
 
-msgid "redirect"
-msgstr ""
-
-msgid "redirects"
+msgid "sessions"
 msgstr ""

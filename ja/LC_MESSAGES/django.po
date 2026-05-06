@@ -1,17 +1,15 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Goto Hayato <habita.gh@gmail.com>, 2021
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Shinya Okano <tokibito@gmail.com>, 2014-2015
-# Takuya N <takninnovationresearch@gmail.com>, 2020
+# Shinya Okano <tokibito@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-15 09:00+0100\n"
-"PO-Revision-Date: 2021-07-02 13:57+0000\n"
-"Last-Translator: Goto Hayato <habita.gh@gmail.com>\n"
+"POT-Creation-Date: 2015-01-17 11:07+0100\n"
+"PO-Revision-Date: 2017-09-19 16:40+0000\n"
+"Last-Translator: Jannis Leidel <jannis@leidel.info>\n"
 "Language-Team: Japanese (http://www.transifex.com/django/django/language/"
 "ja/)\n"
 "MIME-Version: 1.0\n"
@@ -20,32 +18,20 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Redirects"
-msgstr "リダイレクト"
+msgid "Sessions"
+msgstr "セッション"
 
-msgid "site"
-msgstr "サイト"
+msgid "session key"
+msgstr "セッションキー"
 
-msgid "redirect from"
-msgstr "リダイレクト元"
+msgid "session data"
+msgstr "セッションデータ"
 
-msgid ""
-"This should be an absolute path, excluding the domain name. Example: “/"
-"events/search/”."
-msgstr "“/events/search/” のように、ドメイン名を除いた絶対パスにします。 "
+msgid "expire date"
+msgstr "有効期限"
 
-msgid "redirect to"
-msgstr "リダイレクト先"
+msgid "session"
+msgstr "セッション"
 
-msgid ""
-"This can be either an absolute path (as above) or a full URL starting with a "
-"scheme such as “https://”."
-msgstr ""
-"これは上のような絶対パスにも「 https:// 」のようなスキームで始まる完全な URL "
-"にもすることができます。"
-
-msgid "redirect"
-msgstr "リダイレクト"
-
-msgid "redirects"
-msgstr "リダイレクト"
+msgid "sessions"
+msgstr "セッション"

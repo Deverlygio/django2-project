@@ -2,13 +2,12 @@
 #
 # Translators:
 # GunChleoc, 2015
-# GunChleoc, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-15 09:00+0100\n"
-"PO-Revision-Date: 2021-07-15 10:46+0000\n"
+"POT-Creation-Date: 2015-01-17 11:07+0100\n"
+"PO-Revision-Date: 2017-09-22 17:29+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Gaelic, Scottish (http://www.transifex.com/django/django/"
 "language/gd/)\n"
@@ -19,34 +18,20 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
 
-msgid "Redirects"
-msgstr "Ath-stiùiridhean"
+msgid "Sessions"
+msgstr "Seiseanan"
 
-msgid "site"
-msgstr "làrach"
+msgid "session key"
+msgstr "iuchair an t-seisein"
 
-msgid "redirect from"
-msgstr "ath-stiùireadh o"
+msgid "session data"
+msgstr "dàta an t-seisein"
 
-msgid ""
-"This should be an absolute path, excluding the domain name. Example: “/"
-"events/search/”."
-msgstr ""
-"Bu chòir seo a bhith ’na shlighe absaloideach as aonais ainm na h-àrainne. "
-"Ball-eisimpleir: “/tachartasan/lorg/”."
+msgid "expire date"
+msgstr "falbhaidh an ùine air"
 
-msgid "redirect to"
-msgstr "ath-stiùireadh gu"
+msgid "session"
+msgstr "seisean"
 
-msgid ""
-"This can be either an absolute path (as above) or a full URL starting with a "
-"scheme such as “https://”."
-msgstr ""
-"Faodaidh seo a bhith ’na shlighe absaloideach (mar a tha gu h-àrd) no ’na "
-"URL slàn a thòisicheas le sgeama, can “https://”."
-
-msgid "redirect"
-msgstr "ath-stiùireadh"
-
-msgid "redirects"
-msgstr "ath-stiùiridhean"
+msgid "sessions"
+msgstr "seiseanan"

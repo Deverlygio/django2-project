@@ -1,14 +1,14 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Igor Jerosimić, 2019-2021
+# Igor Jerosimić, 2019
 # Jannis Leidel <jannis@leidel.info>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-15 09:00+0100\n"
-"PO-Revision-Date: 2021-01-15 17:03+0000\n"
+"POT-Creation-Date: 2015-01-17 11:07+0100\n"
+"PO-Revision-Date: 2019-06-27 12:40+0000\n"
 "Last-Translator: Igor Jerosimić\n"
 "Language-Team: Serbian (Latin) (http://www.transifex.com/django/django/"
 "language/sr@latin/)\n"
@@ -19,34 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-msgid "Redirects"
-msgstr "Preusmeravanja"
+msgid "Sessions"
+msgstr "Sesije"
 
-msgid "site"
-msgstr "sajt"
+msgid "session key"
+msgstr "ključ sesije"
 
-msgid "redirect from"
-msgstr "preusmeren sa"
+msgid "session data"
+msgstr "podaci sesije"
 
-msgid ""
-"This should be an absolute path, excluding the domain name. Example: “/"
-"events/search/”."
-msgstr ""
-"Ovo treba da bude apsolutna putanja, isključujući ime domena. Primer: “/"
-"events/search/”."
+msgid "expire date"
+msgstr "datum zastarevanja"
 
-msgid "redirect to"
-msgstr "preusmeri ka"
+msgid "session"
+msgstr "sesija"
 
-msgid ""
-"This can be either an absolute path (as above) or a full URL starting with a "
-"scheme such as “https://”."
-msgstr ""
-"Ovo može da bude apsolutna putanja (kao iznad) ili potpun URL koji počinje "
-"sa šemom kao npr. “https://”."
-
-msgid "redirect"
-msgstr "preusmeravanje"
-
-msgid "redirects"
-msgstr "preusmeravanja"
+msgid "sessions"
+msgstr "sesije"

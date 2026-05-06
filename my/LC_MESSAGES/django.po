@@ -1,14 +1,14 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Yhal Htet Aung <jumoun@gmail.com>, 2015
+# Yhal Htet Aung <jumoun@gmail.com>, 2013,2015
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 17:42+0200\n"
-"PO-Revision-Date: 2017-09-19 22:02+0000\n"
-"Last-Translator: Jannis Leidel <jannis@leidel.info>\n"
+"POT-Creation-Date: 2015-01-17 11:07+0100\n"
+"PO-Revision-Date: 2017-09-19 16:50+0000\n"
+"Last-Translator: Yhal Htet Aung <jumoun@gmail.com>\n"
 "Language-Team: Burmese (http://www.transifex.com/django/django/language/"
 "my/)\n"
 "MIME-Version: 1.0\n"
@@ -17,30 +17,20 @@ msgstr ""
 "Language: my\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Redirects"
-msgstr "ပြန်လည်ဝင်ရောက်များ"
+msgid "Sessions"
+msgstr "ကြားကာလများ"
 
-msgid "site"
-msgstr ""
+msgid "session key"
+msgstr "ကြားကာလသော့"
 
-msgid "redirect from"
-msgstr ""
+msgid "session data"
+msgstr "ကြားကာလအချက်အလက်"
 
-msgid ""
-"This should be an absolute path, excluding the domain name. Example: '/"
-"events/search/'."
-msgstr ""
+msgid "expire date"
+msgstr "သက်တမ်းကုန်နေ့စွဲ"
 
-msgid "redirect to"
-msgstr ""
+msgid "session"
+msgstr "ကြားကာလ"
 
-msgid ""
-"This can be either an absolute path (as above) or a full URL starting with "
-"'http://'."
-msgstr ""
-
-msgid "redirect"
-msgstr ""
-
-msgid "redirects"
-msgstr ""
+msgid "sessions"
+msgstr "ကြားကာလများ"
