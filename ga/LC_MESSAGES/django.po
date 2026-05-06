@@ -2,12 +2,15 @@
 #
 # Translators:
 # Aindriú Mac Giolla Eoin, 2024
+# Jannis Leidel <jannis@leidel.info>, 2011
+# Luke Blaney <transifex@lukeblaney.co.uk>, 2019
+# Michael Thornhill <michael@maithu.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-17 02:13-0600\n"
-"PO-Revision-Date: 2024-10-07 09:22+0000\n"
+"POT-Creation-Date: 2021-01-15 09:00+0100\n"
+"PO-Revision-Date: 2024-10-07 18:32+0000\n"
 "Last-Translator: Aindriú Mac Giolla Eoin, 2024\n"
 "Language-Team: Irish (http://app.transifex.com/django/django/language/ga/)\n"
 "MIME-Version: 1.0\n"
@@ -17,109 +20,34 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4);\n"
 
-msgid "PostgreSQL extensions"
-msgstr "Eisínteachtaí PostgreSQL"
+msgid "Redirects"
+msgstr "Athsheolaidh"
 
-#, python-format
-msgid "Item %(nth)s in the array did not validate:"
-msgstr "Níor bhailíochtaigh mír %(nth)s san eagar:"
+msgid "site"
+msgstr "suíomh"
 
-msgid "Nested arrays must have the same length."
-msgstr "Caithfidh an fad céanna a bheith ag eagair neadaithe."
+msgid "redirect from"
+msgstr "atreoraigh ó"
 
-msgid "Map of strings to strings/nulls"
-msgstr "Léarscáil de theaghráin go teaghráin/nulls"
-
-#, python-format
-msgid "The value of “%(key)s” is not a string or null."
-msgstr "Ní teaghrán nó null é luach “%(key)s”."
-
-msgid "Could not load JSON data."
-msgstr "Níorbh fhéidir sonraí JSON a lódáil."
-
-msgid "Input must be a JSON dictionary."
-msgstr "Ní mór gur foclóir JSON é an t-ionchur."
-
-msgid "Enter two valid values."
-msgstr "Cuir isteach dhá luach bhailí."
-
-msgid "The start of the range must not exceed the end of the range."
-msgstr "Ní fhéadfaidh tús an raoin a bheith níos mó ná deireadh an raoin."
-
-msgid "Enter two whole numbers."
-msgstr "Cuir isteach dhá slánuimhir."
-
-msgid "Enter two numbers."
-msgstr "Cuir isteach dhá uimhir."
-
-msgid "Enter two valid date/times."
-msgstr "Cuir isteach dhá dháta bhailí."
-
-msgid "Enter two valid dates."
-msgstr "Cuir isteach dhá dháta bhailí."
-
-#, python-format
 msgid ""
-"List contains %(show_value)d item, it should contain no more than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no more than "
-"%(limit_value)d."
-msgstr[0] ""
-"Tá %(show_value)d mír ar an liosta, níor cheart go mbeadh níos mó ná "
-"%(limit_value)d ann."
-msgstr[1] ""
-"Tá %(show_value)d míreanna ar an liosta, níor cheart go mbeadh níos mó ná "
-"%(limit_value)d ann."
-msgstr[2] ""
-"Tá %(show_value)d míreanna ar an liosta, níor cheart go mbeadh níos mó ná "
-"%(limit_value)d ann."
-msgstr[3] ""
-"Tá %(show_value)d míreanna ar an liosta, níor cheart go mbeadh níos mó ná "
-"%(limit_value)d ann."
-msgstr[4] ""
-"Tá %(show_value)d míreanna ar an liosta, níor cheart go mbeadh níos mó ná "
-"%(limit_value)d ann."
-
-#, python-format
-msgid ""
-"List contains %(show_value)d item, it should contain no fewer than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no fewer than "
-"%(limit_value)d."
-msgstr[0] ""
-"Tá %(show_value)d mír ar an liosta, níor cheart go mbeadh níos lú ná "
-"%(limit_value)d ann."
-msgstr[1] ""
-"Tá %(show_value)d míreanna ar an liosta, níor cheart go mbeadh níos lú ná "
-"%(limit_value)d ann."
-msgstr[2] ""
-"Tá %(show_value)d míreanna ar an liosta, níor cheart go mbeadh níos lú ná "
-"%(limit_value)d ann."
-msgstr[3] ""
-"Tá %(show_value)d míreanna ar an liosta, níor cheart go mbeadh níos lú ná "
-"%(limit_value)d ann."
-msgstr[4] ""
-"Tá %(show_value)d míreanna ar an liosta, níor cheart go mbeadh níos lú ná "
-"%(limit_value)d ann."
-
-#, python-format
-msgid "Some keys were missing: %(keys)s"
-msgstr "Bhí roinnt eochracha ar iarraidh: %(keys)s"
-
-#, python-format
-msgid "Some unknown keys were provided: %(keys)s"
-msgstr "Soláthraíodh roinnt eochracha anaithnid: %(keys)s"
-
-#, python-format
-msgid ""
-"Ensure that the upper bound of the range is not greater than %(limit_value)s."
+"This should be an absolute path, excluding the domain name. Example: “/"
+"events/search/”."
 msgstr ""
-"Cinntigh nach bhfuil teorainn uachtarach an raoin níos mó ná %(limit_value)s."
+"Ba cheart gur cosán iomlán é seo, gan an t-ainm fearainn a áireamh. Sampla: "
+"\\u201c/events/search/\\u201d."
 
-#, python-format
+msgid "redirect to"
+msgstr "atreoraigh go dtí"
+
 msgid ""
-"Ensure that the lower bound of the range is not less than %(limit_value)s."
+"This can be either an absolute path (as above) or a full URL starting with a "
+"scheme such as “https://”."
 msgstr ""
-"Cinntigh nach bhfuil teorainn íochtair an raoin níos lú ná %(limit_value)s."
+"Is féidir gur cosán iomlán é seo (mar atá thuas) nó URL iomlán ag tosú le "
+"scéim mar \\u201chttps://\\u201d."
+
+msgid "redirect"
+msgstr "athsheol"
+
+msgid "redirects"
+msgstr "atreoraithe"
