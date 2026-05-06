@@ -1,21 +1,23 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Jihad Bahmaid Al-Halki, 2022
-# Riterix <infosrabah@gmail.com>, 2019
+# Bashar Al-Abdulhadi, 2015-2016,2021
+# Bashar Al-Abdulhadi, 2014
+# Jannis Leidel <jannis@leidel.info>, 2011
+# Muaaz Alsaied, 2020
+# Ossama Khayat <okhayat@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-15 09:00+0100\n"
-"PO-Revision-Date: 2022-07-24 20:19+0000\n"
-"Last-Translator: Jihad Bahmaid Al-Halki\n"
-"Language-Team: Arabic (Algeria) (http://www.transifex.com/django/django/"
-"language/ar_DZ/)\n"
+"PO-Revision-Date: 2021-10-15 21:25+0000\n"
+"Last-Translator: Bashar Al-Abdulhadi\n"
+"Language-Team: Arabic (http://www.transifex.com/django/django/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ar_DZ\n"
+"Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
@@ -32,7 +34,7 @@ msgid "Bookmarklets"
 msgstr "أوامر المفضلة"
 
 msgid "Documentation bookmarklets"
-msgstr "أوامر مفضلة للوثائق"
+msgstr "أوامر مفضلة الوثائق"
 
 msgid ""
 "To install bookmarklets, drag the link to your bookmarks toolbar, or right-"
@@ -99,13 +101,12 @@ msgid ""
 "The admin documentation system requires Python’s <a href=\"%(link)s"
 "\">docutils</a> library."
 msgstr ""
-"نظام إدارة التوثيق يحتاج إلى<a href=\"%(link)s\"> وثيقة</a>من مكتبة بايثون "
+"نظام توثيقات المشرف يتطلب مكتبة بايثون <a href=\"%(link)s\">docutils</a>."
 
 #, python-format
 msgid ""
 "Please ask your administrators to install <a href=\"%(link)s\">docutils</a>."
-msgstr ""
-"الرجاء الطلب من مشرف النظام لتنصيب <a href=\\\"%(link)s\\\">docutils</a>."
+msgstr "الرجاء الطلب من مشرف النظام لتنصيب <a href=\"%(link)s\">docutils</a>."
 
 #, python-format
 msgid "Model: %(name)s"
@@ -124,13 +125,13 @@ msgid "Description"
 msgstr "وصف"
 
 msgid "Methods with arguments"
-msgstr "طرق بمعطيات"
+msgstr "طُرق بمُعطيات"
 
 msgid "Method"
 msgstr "الطريقة"
 
 msgid "Arguments"
-msgstr "معطيات"
+msgstr "مُعطيات"
 
 msgid "Back to Model documentation"
 msgstr "العودة إلى وثائق الموديول"
@@ -150,12 +151,12 @@ msgstr "قالب: %(name)s"
 
 #, python-format
 msgid "Template: <q>%(name)s</q>"
-msgstr "قالب: \\\"%(name)s\\\""
+msgstr "قالب: <q>%(name)s</q>"
 
 #. Translators: Search is not a verb here, it qualifies path (a search path)
 #, python-format
 msgid "Search path for template <q>%(name)s</q>:"
-msgstr "البحث عن مسار القالب \\\"%(name)s\\\":"
+msgstr "البحث عن مسار القالب <q>%(name)s</q>:"
 
 msgid "(does not exist)"
 msgstr "(غير موجود)"
@@ -208,10 +209,10 @@ msgid "Templates:"
 msgstr "القوالب:"
 
 msgid "Back to View documentation"
-msgstr "العودة لـ : عرض الوثائق"
+msgstr "العودة إلى وثائق الفيو"
 
 msgid "View documentation"
-msgstr "عرض الوثائق"
+msgstr "وثائق الفيو"
 
 msgid "Jump to namespace"
 msgstr "القفز إلى مساحة الاسم"
@@ -233,8 +234,8 @@ msgid ""
 "code>.\n"
 msgstr ""
 "\n"
-" عرض الخاصية: <code>%(full_name)s</code>. الإسم: <code>%(url_name)s</code>."
-"\\n\n"
+"    عرض الخاصية: <code>%(full_name)s</code>. الإسم: <code>%(url_name)s</"
+"code>.\n"
 
 msgid "tag:"
 msgstr "وسم:"
