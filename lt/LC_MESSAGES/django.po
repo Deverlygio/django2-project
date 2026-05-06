@@ -1,14 +1,15 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Matas Dailyda <matas@dailyda.com>, 2015-2018
+# Jannis Leidel <jannis@leidel.info>, 2011
+# Matas Dailyda <matas@dailyda.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-11 20:56+0200\n"
-"PO-Revision-Date: 2020-05-12 20:01+0000\n"
-"Last-Translator: Transifex Bot <>\n"
+"POT-Creation-Date: 2015-10-09 17:42+0200\n"
+"PO-Revision-Date: 2017-09-19 16:40+0000\n"
+"Last-Translator: Matas Dailyda <matas@dailyda.com>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/django/django/language/"
 "lt/)\n"
 "MIME-Version: 1.0\n"
@@ -19,102 +20,34 @@ msgstr ""
 "11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? "
 "1 : n % 1 != 0 ? 2: 3);\n"
 
-msgid "PostgreSQL extensions"
-msgstr "PostgreSQL plėtiniai"
+msgid "Redirects"
+msgstr "Nukreipimai"
 
-#, python-format
-msgid "Item %(nth)s in the array did not validate:"
-msgstr "%(nth)s elementų masyve yra nevalidžių:"
+msgid "site"
+msgstr "tinklalapis"
 
-msgid "Nested arrays must have the same length."
-msgstr "Iterpti vienas į kitą masyvai turi būti vienodo ilgio."
+msgid "redirect from"
+msgstr "nukreiptas (redirect) iš"
 
-msgid "Map of strings to strings/nulls"
-msgstr "Susietos tekstinės reikšmės su tekstinėmis reikšmėmis/nulls"
-
-#, python-format
-msgid "The value of “%(key)s” is not a string or null."
+msgid ""
+"This should be an absolute path, excluding the domain name. Example: '/"
+"events/search/'."
 msgstr ""
+"Turi būti absoliutus adresas neįtraukiant domaino. Pavyzdžiui: '/events/"
+"search/'."
 
-msgid "Could not load JSON data."
-msgstr "Nepavyko užkrauti JSON duomenų."
+msgid "redirect to"
+msgstr "nukreipti(redirect) į"
 
-msgid "Input must be a JSON dictionary."
-msgstr "Įvestis turi būti JSON žodynas."
-
-msgid "Enter two valid values."
-msgstr "Įveskite dvi tinkamas reikšmes."
-
-msgid "The start of the range must not exceed the end of the range."
-msgstr "Diapazono pradžia negali būti didesnė už diapazono pabaigą."
-
-msgid "Enter two whole numbers."
-msgstr "Įveskite du sveikus skaičius."
-
-msgid "Enter two numbers."
-msgstr "Įveskite du skaičius."
-
-msgid "Enter two valid date/times."
-msgstr "Įveskite dvi tinkamas datas/laikus."
-
-msgid "Enter two valid dates."
-msgstr "Įveskite dvi tinkamas datas."
-
-#, python-format
 msgid ""
-"List contains %(show_value)d item, it should contain no more than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no more than "
-"%(limit_value)d."
-msgstr[0] ""
-"Sąrašas turi %(show_value)d elementą. Sąrašas neturėtų turėti daugiau "
-"elementų nei %(limit_value)d."
-msgstr[1] ""
-"Sąrašas turi %(show_value)d elementus. Sąrašas neturėtų turėti daugiau "
-"elementų nei %(limit_value)d."
-msgstr[2] ""
-"Sąrašas turi %(show_value)d elementų. Sąrašas neturėtų turėti daugiau "
-"elementų nei %(limit_value)d."
-msgstr[3] ""
-"Sąrašas turi %(show_value)d elementų. Sąrašas neturėtų turėti daugiau "
-"elementų nei %(limit_value)d."
+"This can be either an absolute path (as above) or a full URL starting with "
+"'http://'."
+msgstr ""
+"Gali būti absoliutus adresas (kaip viršuj) arba pilnas URL pradedant "
+"'http://'."
 
-#, python-format
-msgid ""
-"List contains %(show_value)d item, it should contain no fewer than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no fewer than "
-"%(limit_value)d."
-msgstr[0] ""
-"Sąrašas turi %(show_value)d elementą. Sąrašas turėtų turėti daugiau elementų "
-"nei %(limit_value)d."
-msgstr[1] ""
-"Sąrašas turi %(show_value)d elementus. Sąrašas turėtų turėti daugiau "
-"elementų nei %(limit_value)d."
-msgstr[2] ""
-"Sąrašas turi %(show_value)d elementų. Sąrašas turėtų turėti daugiau elementų "
-"nei %(limit_value)d."
-msgstr[3] ""
-"Sąrašas turi %(show_value)d elementų. Sąrašas turėtų turėti daugiau elementų "
-"nei %(limit_value)d."
+msgid "redirect"
+msgstr "nukreipti"
 
-#, python-format
-msgid "Some keys were missing: %(keys)s"
-msgstr "Kai kurių reikšmių nėra: %(keys)s"
-
-#, python-format
-msgid "Some unknown keys were provided: %(keys)s"
-msgstr "Buvo pateiktos kelios nežinomos reikšmės: %(keys)s"
-
-#, python-format
-msgid ""
-"Ensure that this range is completely less than or equal to %(limit_value)s."
-msgstr "Įsitikinkite kad diapazonas yra mažesnis arba lygus %(limit_value)s."
-
-#, python-format
-msgid ""
-"Ensure that this range is completely greater than or equal to "
-"%(limit_value)s."
-msgstr "Įsitikinkite kad diapazonas yra didesnis arba lygus %(limit_value)s."
+msgid "redirects"
+msgstr "nukreipia"

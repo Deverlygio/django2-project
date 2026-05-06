@@ -1,15 +1,16 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Bogdan Mateescu, 2018
+# Daniel Ursache-Dogariu, 2011
 # Eugenol Man <neatusebastian@gmail.com>, 2020
-# Razvan Stefanescu <razvan.stefanescu@gmail.com>, 2015,2017
+# Jannis Leidel <jannis@leidel.info>, 2011
+# Razvan Stefanescu <razvan.stefanescu@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-11 20:56+0200\n"
-"PO-Revision-Date: 2020-07-06 17:14+0000\n"
+"POT-Creation-Date: 2019-09-08 17:27+0200\n"
+"PO-Revision-Date: 2020-07-15 11:20+0000\n"
 "Last-Translator: Eugenol Man <neatusebastian@gmail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/django/django/language/"
 "ro/)\n"
@@ -20,101 +21,34 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
 "2:1));\n"
 
-msgid "PostgreSQL extensions"
-msgstr "Extensiile PostgreSQL"
+msgid "Redirects"
+msgstr "Redirecționări"
 
-#, python-format
-msgid "Item %(nth)s in the array did not validate:"
-msgstr "Elementul %(nth)s din mulțime nu s-a validat:"
+msgid "site"
+msgstr "site"
 
-msgid "Nested arrays must have the same length."
-msgstr "Vectorii imbricați trebuie să aibă aceeași lungime."
+msgid "redirect from"
+msgstr "redirecționat de la "
 
-msgid "Map of strings to strings/nulls"
-msgstr "Asociere de șiruri de caractere cu șiruri de caractere/null."
-
-#, python-format
-msgid "The value of “%(key)s” is not a string or null."
-msgstr "Valoarea “%(key)s” nu este un sir sau zero."
-
-msgid "Could not load JSON data."
-msgstr "Nu am putut încărca datele JSON."
-
-msgid "Input must be a JSON dictionary."
-msgstr "Intrarea trebuie să fie un dicționar JSON valid."
-
-msgid "Enter two valid values."
-msgstr "Introdu două valori valide."
-
-msgid "The start of the range must not exceed the end of the range."
+msgid ""
+"This should be an absolute path, excluding the domain name. Example: “/"
+"events/search/”."
 msgstr ""
-"Începutul intervalului nu trebuie să depășească sfârșitul intervalului."
+"Trebuie sa fie o cale absoluta, exeptand numele domeniului. Exemplu: “/"
+"events/search/”."
 
-msgid "Enter two whole numbers."
-msgstr "Introdu două numere întregi."
+msgid "redirect to"
+msgstr "redirecționat către"
 
-msgid "Enter two numbers."
-msgstr "Introdu două numere."
-
-msgid "Enter two valid date/times."
-msgstr "Introdu două date / ore valide."
-
-msgid "Enter two valid dates."
-msgstr "Introdu două date valide."
-
-#, python-format
 msgid ""
-"List contains %(show_value)d item, it should contain no more than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no more than "
-"%(limit_value)d."
-msgstr[0] ""
-"Lista conține %(show_value)d, nu ar trebui să conțină mai mult de "
-"%(limit_value)d."
-msgstr[1] ""
-"Lista conține %(show_value)d, nu ar trebui să conțină mai mult de "
-"%(limit_value)d."
-msgstr[2] ""
-"Lista conține %(show_value)d, nu ar trebui să conțină mai mult de "
-"%(limit_value)d."
-
-#, python-format
-msgid ""
-"List contains %(show_value)d item, it should contain no fewer than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no fewer than "
-"%(limit_value)d."
-msgstr[0] ""
-"Lista conține %(show_value)d, nu ar trebui să conțină mai puțin de "
-"%(limit_value)d."
-msgstr[1] ""
-"Lista conține %(show_value)d, nu ar trebui să conțină mai puțin de "
-"%(limit_value)d."
-msgstr[2] ""
-"Lista conține %(show_value)d, nu ar trebui să conțină mai puțin de "
-"%(limit_value)d."
-
-#, python-format
-msgid "Some keys were missing: %(keys)s"
-msgstr "Unele chei lipsesc: %(keys)s"
-
-#, python-format
-msgid "Some unknown keys were provided: %(keys)s"
-msgstr "Au fost furnizate chei necunoscute: %(keys)s"
-
-#, python-format
-msgid ""
-"Ensure that this range is completely less than or equal to %(limit_value)s."
+"This can be either an absolute path (as above) or a full URL starting with "
+"“http://”."
 msgstr ""
-"Asigură-te că intervalul este în întregime mai mic sau egal cu  "
-"%(limit_value)s."
+"Poate fi cale absolută (ca mai sus) sau link URL complet, începând cu "
+"“http://”."
 
-#, python-format
-msgid ""
-"Ensure that this range is completely greater than or equal to "
-"%(limit_value)s."
-msgstr ""
-"Asigură-te că intervalul este în întregime mai mare sau egal cu "
-"%(limit_value)s."
+msgid "redirect"
+msgstr "redirecționare"
+
+msgid "redirects"
+msgstr "redirecționări"

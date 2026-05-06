@@ -1,17 +1,18 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Claudio Fernandes <squeral@gmail.com>, 2015
-# jorgecarleitao <jorgecarleitao@gmail.com>, 2015
-# Nuno Mariz <nmariz@gmail.com>, 2015,2017-2018
+# Jannis Leidel <jannis@leidel.info>, 2011
+# Manuela Silva <mmsrs@sky.com>, 2025
+# Nuno Mariz <nmariz@gmail.com>, 2011,2015
+# Raúl Pedro Fernandes Santos, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-11 20:56+0200\n"
-"PO-Revision-Date: 2020-05-12 20:01+0000\n"
-"Last-Translator: Transifex Bot <>\n"
-"Language-Team: Portuguese (http://www.transifex.com/django/django/language/"
+"POT-Creation-Date: 2021-01-15 09:00+0100\n"
+"PO-Revision-Date: 2025-09-17 18:32+0000\n"
+"Last-Translator: Manuela Silva <mmsrs@sky.com>, 2025\n"
+"Language-Team: Portuguese (http://app.transifex.com/django/django/language/"
 "pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,89 +20,34 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "PostgreSQL extensions"
-msgstr "Extensões de PostgresSQL"
+msgid "Redirects"
+msgstr "Redireccionamentos"
 
-#, python-format
-msgid "Item %(nth)s in the array did not validate:"
-msgstr "Item %(nth)s na lista não validou:"
+msgid "site"
+msgstr "site"
 
-msgid "Nested arrays must have the same length."
-msgstr "As sub-listas têm de ter o mesmo tamanho."
+msgid "redirect from"
+msgstr "redirecionar de"
 
-msgid "Map of strings to strings/nulls"
-msgstr "Mapeamento de strings para strings/nulos"
-
-#, python-format
-msgid "The value of “%(key)s” is not a string or null."
+msgid ""
+"This should be an absolute path, excluding the domain name. Example: “/"
+"events/search/”."
 msgstr ""
+"Isto deveria ser um caminho absoluto, excluindo o nome de domínio. Exemplo: "
+"\"/events/search/\"."
 
-msgid "Could not load JSON data."
-msgstr "Não foi possível carregar os dados JSON."
+msgid "redirect to"
+msgstr "redirecionar para"
 
-msgid "Input must be a JSON dictionary."
-msgstr "A entrada deve ser um dicionário JSON."
-
-msgid "Enter two valid values."
-msgstr "Introduza dois valores válidos."
-
-msgid "The start of the range must not exceed the end of the range."
-msgstr "O início da gama não pode ser maior que o seu fim."
-
-msgid "Enter two whole numbers."
-msgstr "Introduza dois números inteiros."
-
-msgid "Enter two numbers."
-msgstr "Introduza dois números."
-
-msgid "Enter two valid date/times."
-msgstr "Introduza duas datas/horas válidas."
-
-msgid "Enter two valid dates."
-msgstr "Introduza duas datas válidas."
-
-#, python-format
 msgid ""
-"List contains %(show_value)d item, it should contain no more than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no more than "
-"%(limit_value)d."
-msgstr[0] ""
-"A lista contém %(show_value)d item, não pode conter mais do que "
-"%(limit_value)d."
-msgstr[1] ""
-"A lista contém %(show_value)d itens, não pode conter mais do que "
-"%(limit_value)d."
+"This can be either an absolute path (as above) or a full URL starting with a "
+"scheme such as “https://”."
+msgstr ""
+"Isto pode ser um caminho absoluto (como acima) ou um URL completo, começando "
+"com um esquema, como \"https://\"."
 
-#, python-format
-msgid ""
-"List contains %(show_value)d item, it should contain no fewer than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no fewer than "
-"%(limit_value)d."
-msgstr[0] ""
-"A lista contém %(show_value)d item, tem de conter pelo menos %(limit_value)d."
-msgstr[1] ""
-"A lista contém %(show_value)d itens, tem de conter pelo menos "
-"%(limit_value)d."
+msgid "redirect"
+msgstr "redirecionar"
 
-#, python-format
-msgid "Some keys were missing: %(keys)s"
-msgstr "Algumas chaves estão em falta: %(keys)s"
-
-#, python-format
-msgid "Some unknown keys were provided: %(keys)s"
-msgstr "Foram fornecidas algumas chaves desconhecidas: %(keys)s"
-
-#, python-format
-msgid ""
-"Ensure that this range is completely less than or equal to %(limit_value)s."
-msgstr "Garanta que esta gama é toda ela menor ou igual a %(limit_value)s."
-
-#, python-format
-msgid ""
-"Ensure that this range is completely greater than or equal to "
-"%(limit_value)s."
-msgstr "Garanta que esta gama é toda ela maior ou igual a %(limit_value)s."
+msgid "redirects"
+msgstr "redireciona"

@@ -1,13 +1,14 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
+# Jannis Leidel <jannis@leidel.info>, 2011
 # Sivert Olstad, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-11 20:56+0200\n"
-"PO-Revision-Date: 2021-11-16 22:21+0000\n"
+"POT-Creation-Date: 2021-01-15 09:00+0100\n"
+"PO-Revision-Date: 2021-11-11 10:05+0000\n"
 "Last-Translator: Sivert Olstad\n"
 "Language-Team: Norwegian Nynorsk (http://www.transifex.com/django/django/"
 "language/nn/)\n"
@@ -17,90 +18,33 @@ msgstr ""
 "Language: nn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "PostgreSQL extensions"
-msgstr "PostgreSQL-utvidingar"
+msgid "Redirects"
+msgstr "Omadresseringar"
 
-#, python-format
-msgid "Item %(nth)s in the array did not validate:"
-msgstr "Element %(nth)s i arrayen validerte ikkje:"
+msgid "site"
+msgstr "nettstad"
 
-msgid "Nested arrays must have the same length."
-msgstr "Nysta arrayar må ha same lengde."
+msgid "redirect from"
+msgstr "omadresser frå"
 
-msgid "Map of strings to strings/nulls"
-msgstr "Oversyn over strenger til strenger/nulls"
-
-#, python-format
-msgid "The value of “%(key)s” is not a string or null."
-msgstr "Verdien til “%(key)s” er ikkje ein streng eller null."
-
-msgid "Could not load JSON data."
-msgstr "Kunne ikkje laste JSON-data."
-
-msgid "Input must be a JSON dictionary."
-msgstr "Inndata må vere ein JSON-dictionary."
-
-msgid "Enter two valid values."
-msgstr "Oppgje to gyldige verdiar."
-
-msgid "The start of the range must not exceed the end of the range."
-msgstr "Starten på serien må ikkje overstige enden av serien."
-
-msgid "Enter two whole numbers."
-msgstr "Oppgje to heiltal."
-
-msgid "Enter two numbers."
-msgstr "Oppgje to tal."
-
-msgid "Enter two valid date/times."
-msgstr "Oppgje to gyldige datoar/tidspunkt."
-
-msgid "Enter two valid dates."
-msgstr "Oppgje to gyldige datoar."
-
-#, python-format
 msgid ""
-"List contains %(show_value)d item, it should contain no more than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no more than "
-"%(limit_value)d."
-msgstr[0] ""
-"Lista inneheld %(show_value)d element, den bør ikkje innehalde fleire enn "
-"%(limit_value)d."
-msgstr[1] ""
-"Lista inneheld %(show_value)d element, den bør ikkje innehalde fleire enn "
-"%(limit_value)d."
+"This should be an absolute path, excluding the domain name. Example: “/"
+"events/search/”."
+msgstr ""
+"Dette bør vere ein fullstendig sti utan domenenavn. Døme: “/hendingar/finn/”."
 
-#, python-format
+msgid "redirect to"
+msgstr "omadresser til"
+
 msgid ""
-"List contains %(show_value)d item, it should contain no fewer than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no fewer than "
-"%(limit_value)d."
-msgstr[0] ""
-"Lista inneheld %(show_value)d element, den bør ikkje innehalde færre enn "
-"%(limit_value)d."
-msgstr[1] ""
-"Lista inneheld %(show_value)d element, den bør ikkje innehalde færre enn "
-"%(limit_value)d."
+"This can be either an absolute path (as above) or a full URL starting with a "
+"scheme such as “https://”."
+msgstr ""
+"Dette kan enten vere ein fullstendig sti (som over), eller ei fullstendig "
+"nettadresse som startar med eit skjema som “https://”."
 
-#, python-format
-msgid "Some keys were missing: %(keys)s"
-msgstr "Nokon nyklar mangla: %(keys)s"
+msgid "redirect"
+msgstr "omadressering"
 
-#, python-format
-msgid "Some unknown keys were provided: %(keys)s"
-msgstr "Nokon ukjende nyklar vart oppgjeve: %(keys)s"
-
-#, python-format
-msgid ""
-"Ensure that this range is completely less than or equal to %(limit_value)s."
-msgstr "Syrg for at serien er heilt mindre enn eller lik %(limit_value)s."
-
-#, python-format
-msgid ""
-"Ensure that this range is completely greater than or equal to "
-"%(limit_value)s."
-msgstr "Syrg for at serien er heilt større enn eller lik %(limit_value)s."
+msgid "redirects"
+msgstr "omadresseringar"

@@ -1,13 +1,14 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Hrishikesh <hrishi.kb@gmail.com>, 2020
+# Hrishikesh <hrishi.kb@gmail.com>, 2019
+# Jannis Leidel <jannis@leidel.info>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-11 20:56+0200\n"
-"PO-Revision-Date: 2020-05-13 21:28+0000\n"
+"POT-Creation-Date: 2015-10-09 17:42+0200\n"
+"PO-Revision-Date: 2019-03-03 10:36+0000\n"
 "Last-Translator: Hrishikesh <hrishi.kb@gmail.com>\n"
 "Language-Team: Malayalam (http://www.transifex.com/django/django/language/"
 "ml/)\n"
@@ -17,82 +18,34 @@ msgstr ""
 "Language: ml\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "PostgreSQL extensions"
-msgstr "PostgreSQL എക്സ്റ്റൻഷനുക"
+msgid "Redirects"
+msgstr "തിരിച്ചുവിടലുകൾ"
 
-#, python-format
-msgid "Item %(nth)s in the array did not validate:"
-msgstr ""
+msgid "site"
+msgstr "സൈറ്റ്"
 
-msgid "Nested arrays must have the same length."
-msgstr "നെസ്റ്റഡ് അറേകൾക്ക് ഒരേ ലെങ്ത്തായിരിക്കണം."
+msgid "redirect from"
+msgstr "എവിടെ നിന്ന്"
 
-msgid "Map of strings to strings/nulls"
-msgstr "സ്ട്രിങ്ങുകളിൽ നിന്ന് സ്ട്രിങ്ങുകളിലേക്ക്/nulls ലേയ്ക്ക് ഉള്ള Map."
-
-#, python-format
-msgid "The value of “%(key)s” is not a string or null."
-msgstr ""
-
-msgid "Could not load JSON data."
-msgstr "JSON ഡാറ്റ ലോഡുചെയ്യാനായില്ല."
-
-msgid "Input must be a JSON dictionary."
-msgstr "ഇൻപുട്ട് നിർബന്ധമായു ഒരു JSON ഡിക്ഷ്ണറി ആയിരിക്കണം."
-
-msgid "Enter two valid values."
-msgstr "ശരിയായ രണ്ട് വാല്യൂകൾ നൽകു"
-
-msgid "The start of the range must not exceed the end of the range."
-msgstr ""
-
-msgid "Enter two whole numbers."
-msgstr "രണ്ട് പൂർണ്ണസംഖ്യകൾ നൽകുക."
-
-msgid "Enter two numbers."
-msgstr ""
-
-msgid "Enter two valid date/times."
-msgstr ""
-
-msgid "Enter two valid dates."
-msgstr "ശരിയായ രണ്ട് തീയതികൾ നകുക."
-
-#, python-format
 msgid ""
-"List contains %(show_value)d item, it should contain no more than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no more than "
-"%(limit_value)d."
-msgstr[0] ""
-msgstr[1] ""
+"This should be an absolute path, excluding the domain name. Example: '/"
+"events/search/'."
+msgstr ""
+"ഇത് ഡൊമൈനിന്റെ പേര് ഉൾപ്പെടാതെയുള്ള ഒരു അബ്സല്യൂട്ട് പാത്ത് ആയിരിക്കണം.  ഉദാഹരണം: '/events/"
+"search/'."
 
-#, python-format
+msgid "redirect to"
+msgstr "എങ്ങോട്ട്"
+
 msgid ""
-"List contains %(show_value)d item, it should contain no fewer than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no fewer than "
-"%(limit_value)d."
-msgstr[0] ""
-msgstr[1] ""
-
-#, python-format
-msgid "Some keys were missing: %(keys)s"
+"This can be either an absolute path (as above) or a full URL starting with "
+"'http://'."
 msgstr ""
+"ഇതൊരു  അബ്സല്യൂട്ട് പാത്തോ (മുകളിലത്തേതു പോലെ)  'http://' എന്നു തുടങ്ങുന്ന ഒരു മുഴുവൻ യു.ആർ.എല്ലോ "
+"ആവാം"
 
-#, python-format
-msgid "Some unknown keys were provided: %(keys)s"
-msgstr ""
+msgid "redirect"
+msgstr "തിരിച്ചുവിടൽ"
 
-#, python-format
-msgid ""
-"Ensure that this range is completely less than or equal to %(limit_value)s."
-msgstr ""
-
-#, python-format
-msgid ""
-"Ensure that this range is completely greater than or equal to "
-"%(limit_value)s."
-msgstr ""
+msgid "redirects"
+msgstr "തിരിച്ചുവിടലുകൾ"

@@ -1,17 +1,16 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Zorig, 2016-2017
-# Zorig, 2019
-# Анхбаяр Анхаа <l.ankhbayar@gmail.com>, 2015
-# Баясгалан Цэвлээ <bayasaa_7672@yahoo.com>, 2015
+# Bayarkhuu Bataa, 2014
+# Jannis Leidel <jannis@leidel.info>, 2011
+# Анхбаяр Анхаа <l.ankhbayar@gmail.com>, 2011,2015
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-11 20:56+0200\n"
-"PO-Revision-Date: 2020-05-12 20:01+0000\n"
-"Last-Translator: Transifex Bot <>\n"
+"POT-Creation-Date: 2015-10-09 17:42+0200\n"
+"PO-Revision-Date: 2017-09-19 16:40+0000\n"
+"Last-Translator: Анхбаяр Анхаа <l.ankhbayar@gmail.com>\n"
 "Language-Team: Mongolian (http://www.transifex.com/django/django/language/"
 "mn/)\n"
 "MIME-Version: 1.0\n"
@@ -20,92 +19,34 @@ msgstr ""
 "Language: mn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "PostgreSQL extensions"
-msgstr "PostgreSQL -ын өргөтгөлүүд"
+msgid "Redirects"
+msgstr "Чиглүүлэлтүүд"
 
-#, python-format
-msgid "Item %(nth)s in the array did not validate:"
-msgstr "Массивд байгаа %(nth)s буруу байна"
+msgid "site"
+msgstr "сайт"
 
-msgid "Nested arrays must have the same length."
-msgstr "Түүвэрлэсэн массив ижил урттай байх ёстой."
+msgid "redirect from"
+msgstr "redirect хаанаас"
 
-msgid "Map of strings to strings/nulls"
-msgstr "Тэмдэгтийг тэмдэгт/null руу заагч"
-
-#, python-format
-msgid "The value of “%(key)s” is not a string or null."
+msgid ""
+"This should be an absolute path, excluding the domain name. Example: '/"
+"events/search/'."
 msgstr ""
+"Энэ нь домэйн нэр агуулаагүй абсолют зам байх ёстой. Жишээ нь: '/events/"
+"search/'."
 
-msgid "Could not load JSON data."
-msgstr "JSON дата-г уншиж чадахгүй байна."
+msgid "redirect to"
+msgstr "redirect хаашаа"
 
-msgid "Input must be a JSON dictionary."
-msgstr "Оролт JSON dictionary байх ёстой."
-
-msgid "Enter two valid values."
-msgstr "Хоёр зөв утга оруулна уу"
-
-msgid "The start of the range must not exceed the end of the range."
-msgstr "Хүрээний эхлэл төгсгөлөөс хэтрэхгүй байх ёстой."
-
-msgid "Enter two whole numbers."
-msgstr "Хоёр бүхэл тоон утга оруулна уу."
-
-msgid "Enter two numbers."
-msgstr "Хоёр тоо оруулна уу."
-
-msgid "Enter two valid date/times."
-msgstr "хоёр зөв огноо/цаг-ыг оруулна уу."
-
-msgid "Enter two valid dates."
-msgstr "Хоёр зөв огноо оруулна уу"
-
-#, python-format
 msgid ""
-"List contains %(show_value)d item, it should contain no more than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no more than "
-"%(limit_value)d."
-msgstr[0] ""
-"Жагсаалтанд %(show_value)d зүйл байна, %(limit_value)d -ээс хэтрэхгүй байх "
-"ёстой."
-msgstr[1] ""
-"Жагсаалтанд %(show_value)d зүйлүүд байна, %(limit_value)d -ээс хэтрэхгүй "
-"байх ёстой."
-
-#, python-format
-msgid ""
-"List contains %(show_value)d item, it should contain no fewer than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no fewer than "
-"%(limit_value)d."
-msgstr[0] ""
-"Жагсаалтанд %(show_value)d зүйл байна, %(limit_value)d -ээс ихгүй байх ёстой."
-msgstr[1] ""
-"Жагсаалтанд %(show_value)d зүйлүүд байна, %(limit_value)d -ээс ихгүй байх "
-"ёстой."
-
-#, python-format
-msgid "Some keys were missing: %(keys)s"
-msgstr "Зарим түлхүүр байхгүй байна: %(keys)s"
-
-#, python-format
-msgid "Some unknown keys were provided: %(keys)s"
-msgstr "Хэсэг үл мэдэгдэх түлхүүр байна: %(keys)s"
-
-#, python-format
-msgid ""
-"Ensure that this range is completely less than or equal to %(limit_value)s."
+"This can be either an absolute path (as above) or a full URL starting with "
+"'http://'."
 msgstr ""
-"Энэ хүрээ нь %(limit_value)s -тэй бүрэн тэнцүү буюу түүнээс бага байгаа "
-"эсэхийг шалгана уу"
+"Энэ нь (дээрхийн нэгэн адил) абсолют зам юм уу 'http://' гэж эхэлсэн бүтэн "
+"URL байж болно. "
 
-#, python-format
-msgid ""
-"Ensure that this range is completely greater than or equal to "
-"%(limit_value)s."
-msgstr ""
-"Энэ хүрээ нь %(limit_value)s -с их буюу тэнцүү байгаа эсэхийг шалгана уу"
+msgid "redirect"
+msgstr "redirect"
+
+msgid "redirects"
+msgstr "redirect-ууд"

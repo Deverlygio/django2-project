@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-11 20:56+0200\n"
-"PO-Revision-Date: 2020-05-15 00:32+0000\n"
+"POT-Creation-Date: 2019-09-08 17:27+0200\n"
+"PO-Revision-Date: 2020-05-15 00:33+0000\n"
 "Last-Translator: Surush Sufiew <siriusproger@gmail.com>\n"
 "Language-Team: Tajik (http://www.transifex.com/django/django/language/tg/)\n"
 "MIME-Version: 1.0\n"
@@ -16,86 +16,30 @@ msgstr ""
 "Language: tg\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "PostgreSQL extensions"
-msgstr "Расширения PostgreSQL"
+msgid "Redirects"
+msgstr "Самтдигаркунӣ(Redirects)"
 
-#, python-format
-msgid "Item %(nth)s in the array did not validate:"
-msgstr "Элементи %(nth)s -и массив санҷишро нагузашт:"
+msgid "site"
+msgstr "сомона"
 
-msgid "Nested arrays must have the same length."
-msgstr "Массивҳои воридкардашуда бояд дарозиҳои якхела дошта бошанд."
+msgid "redirect from"
+msgstr "Самтдигаркунӣ аз"
 
-msgid "Map of strings to strings/nulls"
-msgstr "Массивҳои strings ба strings/nulls"
-
-#, python-format
-msgid "The value of “%(key)s” is not a string or null."
+msgid ""
+"This should be an absolute path, excluding the domain name. Example: “/"
+"events/search/”."
 msgstr ""
 
-msgid "Could not load JSON data."
-msgstr "Боркунии JSON-додаҳо муяссар нашуд."
+msgid "redirect to"
+msgstr "Самтдигаркунӣ ба"
 
-msgid "Input must be a JSON dictionary."
-msgstr "Қимматҳо бояд дар шакли JSON-луғатҳо ворид карда шаванд."
-
-msgid "Enter two valid values."
-msgstr "Дуто қимати дуруст ворид созед."
-
-msgid "The start of the range must not exceed the end of the range."
-msgstr "Оғози фосила наметавонад қимати аз ҳудуди худ калонро қабул кунад."
-
-msgid "Enter two whole numbers."
-msgstr "Дуто адади яклухтро ворид созед."
-
-msgid "Enter two numbers."
-msgstr "Ду ададро ворид созед."
-
-msgid "Enter two valid date/times."
-msgstr "Санаро бо вақт дуруст ворид кунед."
-
-msgid "Enter two valid dates."
-msgstr "Дуто санаи дурустро ворид созед."
-
-#, python-format
 msgid ""
-"List contains %(show_value)d item, it should contain no more than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no more than "
-"%(limit_value)d."
-msgstr[0] ""
-msgstr[1] ""
-
-#, python-format
-msgid ""
-"List contains %(show_value)d item, it should contain no fewer than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no fewer than "
-"%(limit_value)d."
-msgstr[0] ""
-msgstr[1] ""
-
-#, python-format
-msgid "Some keys were missing: %(keys)s"
-msgstr "Баъзе аз калидҳо истисно карда шудаанд: %(keys)s"
-
-#, python-format
-msgid "Some unknown keys were provided: %(keys)s"
+"This can be either an absolute path (as above) or a full URL starting with "
+"“http://”."
 msgstr ""
-"Баъзе аз калидҳои овардашуда ба руйхати калидҳои маъмул дохил нестанд: "
-"%(keys)s"
 
-#, python-format
-msgid ""
-"Ensure that this range is completely less than or equal to %(limit_value)s."
-msgstr ""
-"Мутмаин гардед, ки ҳамаи қиматҳои мутаалиқ ба ин фосила, кам ё баробаранд ба:"
-"%(limit_value)s."
+msgid "redirect"
+msgstr "самтдигаркунӣ"
 
-#, python-format
-msgid ""
-"Ensure that this range is completely greater than or equal to "
-"%(limit_value)s."
-msgstr "Мутмаин шавед ки ин фосила зиёд ё баробаранд ба: %(limit_value)s."
+msgid "redirects"
+msgstr "самтдигаркунӣ"

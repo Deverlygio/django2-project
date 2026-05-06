@@ -1,16 +1,16 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# dekomote <dr.mote@gmail.com>, 2015
-# Vasil Vangelovski <vvangelovski@gmail.com>, 2015-2017
-# Vasil Vangelovski <vvangelovski@gmail.com>, 2015
+# Jannis Leidel <jannis@leidel.info>, 2011
+# Vasil Vangelovski <vvangelovski@gmail.com>, 2016
+# Vasil Vangelovski <vvangelovski@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-11 20:56+0200\n"
-"PO-Revision-Date: 2020-05-12 20:01+0000\n"
-"Last-Translator: Transifex Bot <>\n"
+"POT-Creation-Date: 2015-10-09 17:42+0200\n"
+"PO-Revision-Date: 2017-09-23 18:54+0000\n"
+"Last-Translator: Vasil Vangelovski <vvangelovski@gmail.com>\n"
 "Language-Team: Macedonian (http://www.transifex.com/django/django/language/"
 "mk/)\n"
 "MIME-Version: 1.0\n"
@@ -19,94 +19,34 @@ msgstr ""
 "Language: mk\n"
 "Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
 
-msgid "PostgreSQL extensions"
-msgstr "PostgreSQL eкстензии"
+msgid "Redirects"
+msgstr "Пренасочувања"
 
-#, python-format
-msgid "Item %(nth)s in the array did not validate:"
-msgstr ""
+msgid "site"
+msgstr "сајт"
 
-msgid "Nested arrays must have the same length."
-msgstr "Вгнездени низи мораат да имаат иста должина."
+msgid "redirect from"
+msgstr "пренасочи од"
 
-msgid "Map of strings to strings/nulls"
-msgstr ""
-
-#, python-format
-msgid "The value of “%(key)s” is not a string or null."
-msgstr ""
-
-msgid "Could not load JSON data."
-msgstr "Не можеа да се вчитаат JSON податоци."
-
-msgid "Input must be a JSON dictionary."
-msgstr ""
-
-msgid "Enter two valid values."
-msgstr "Внесете две валидни вредности."
-
-msgid "The start of the range must not exceed the end of the range."
-msgstr "Почетокот на опсегот не смее да го надминува крајот на опсегот."
-
-msgid "Enter two whole numbers."
-msgstr "Внесете два цели броеви."
-
-msgid "Enter two numbers."
-msgstr "Внесете два броја."
-
-msgid "Enter two valid date/times."
-msgstr "Внесете две валидни датуми/времиња"
-
-msgid "Enter two valid dates."
-msgstr "Внесете два валидни датуми."
-
-#, python-format
 msgid ""
-"List contains %(show_value)d item, it should contain no more than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no more than "
-"%(limit_value)d."
-msgstr[0] ""
-"Листата соджи %(show_value)d елемент, не смее да содржи повеќе од "
-"%(limit_value)d."
-msgstr[1] ""
-"Листата содржи %(show_value)d елементи, не треба да содржи повеќе од "
-"%(limit_value)d."
-
-#, python-format
-msgid ""
-"List contains %(show_value)d item, it should contain no fewer than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no fewer than "
-"%(limit_value)d."
-msgstr[0] ""
-"Листата содржи %(show_value)d елемент, не треба да содржи помалку од "
-"%(limit_value)d."
-msgstr[1] ""
-"Листата содржи %(show_value)d елемент, не треба да содржи помалку од "
-"%(limit_value)d."
-
-#, python-format
-msgid "Some keys were missing: %(keys)s"
-msgstr "Некои клучеви недостигаа: %(keys)s"
-
-#, python-format
-msgid "Some unknown keys were provided: %(keys)s"
-msgstr "Беа дадени некои непознати клучеви: %(keys)s"
-
-#, python-format
-msgid ""
-"Ensure that this range is completely less than or equal to %(limit_value)s."
+"This should be an absolute path, excluding the domain name. Example: '/"
+"events/search/'."
 msgstr ""
-"Осигурајте се дека овој опсег во целост е помал или еднаков на "
-"%(limit_value)s."
+"Ова треба да биде апсолутна патека без името на домејнот. На пр. „/nastani/"
+"prebaraj/“."
 
-#, python-format
+msgid "redirect to"
+msgstr "пренасочи кон"
+
 msgid ""
-"Ensure that this range is completely greater than or equal to "
-"%(limit_value)s."
+"This can be either an absolute path (as above) or a full URL starting with "
+"'http://'."
 msgstr ""
-"Осигурајте се дека овој опсег во целост е поголем или еднаков на "
-"%(limit_value)s."
+"Ова може да биде или апсолутна патека (како погоре) или цела адреса што "
+"почнува со „http://“."
+
+msgid "redirect"
+msgstr "пренасочување"
+
+msgid "redirects"
+msgstr "пренасочувања"
