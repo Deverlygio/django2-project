@@ -1,24 +1,47 @@
-from django.utils.version import get_version
+from .messages import (
+    CRITICAL,
+    DEBUG,
+    ERROR,
+    INFO,
+    WARNING,
+    CheckMessage,
+    Critical,
+    Debug,
+    Error,
+    Info,
+    Warning,
+)
+from .registry import Tags, register, run_checks, tag_exists
 
-VERSION = (6, 0, 4, "final", 0)
+# Import these to force registration of checks
+import django.core.checks.async_checks  # NOQA isort:skip
+import django.core.checks.caches  # NOQA isort:skip
+import django.core.checks.commands  # NOQA isort:skip
+import django.core.checks.compatibility.django_4_0  # NOQA isort:skip
+import django.core.checks.database  # NOQA isort:skip
+import django.core.checks.files  # NOQA isort:skip
+import django.core.checks.model_checks  # NOQA isort:skip
+import django.core.checks.security.base  # NOQA isort:skip
+import django.core.checks.security.csrf  # NOQA isort:skip
+import django.core.checks.security.sessions  # NOQA isort:skip
+import django.core.checks.templates  # NOQA isort:skip
+import django.core.checks.translation  # NOQA isort:skip
+import django.core.checks.urls  # NOQA isort:skip
 
-__version__ = get_version(VERSION)
-
-
-def setup(set_prefix=True):
-    """
-    Configure the settings (this happens as a side effect of accessing the
-    first setting), configure logging and populate the app registry.
-    Set the thread-local urlresolvers script prefix if `set_prefix` is True.
-    """
-    from django.apps import apps
-    from django.conf import settings
-    from django.urls import set_script_prefix
-    from django.utils.log import configure_logging
-
-    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
-    if set_prefix:
-        set_script_prefix(
-            "/" if settings.FORCE_SCRIPT_NAME is None else settings.FORCE_SCRIPT_NAME
-        )
-    apps.populate(settings.INSTALLED_APPS)
+__all__ = [
+    "CheckMessage",
+    "Debug",
+    "Info",
+    "Warning",
+    "Error",
+    "Critical",
+    "DEBUG",
+    "INFO",
+    "WARNING",
+    "ERROR",
+    "CRITICAL",
+    "register",
+    "run_checks",
+    "tag_exists",
+    "Tags",
+]
