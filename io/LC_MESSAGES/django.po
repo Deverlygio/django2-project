@@ -16,20 +16,20 @@ msgstr ""
 "Language: io\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sessions"
+msgid "Sites"
 msgstr ""
 
-msgid "session key"
-msgstr "sesiono klefo"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "La domeno nomo ne povas kontenar spaci, nek tab-signi."
 
-msgid "session data"
-msgstr "sesiono datumi"
+msgid "domain name"
+msgstr "domeno nomo"
 
-msgid "expire date"
-msgstr "expiro dato"
+msgid "display name"
+msgstr "montrita nomo"
 
-msgid "session"
-msgstr "sesiono"
+msgid "site"
+msgstr "ret-situo"
 
-msgid "sessions"
-msgstr "sesioni"
+msgid "sites"
+msgstr "ret-situi"

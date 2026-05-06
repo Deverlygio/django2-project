@@ -17,20 +17,20 @@ msgstr ""
 "Language: my\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Sessions"
-msgstr "ကြားကာလများ"
+msgid "Sites"
+msgstr "ဆိုက်များ"
 
-msgid "session key"
-msgstr "ကြားကာလသော့"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "ဒိုမိန်းနာမည်တွင်ကွက်လပ်(သို့)အမည်များမပါဝင်နိုင်။"
 
-msgid "session data"
-msgstr "ကြားကာလအချက်အလက်"
+msgid "domain name"
+msgstr "ဒိုမိန်းနာမည်"
 
-msgid "expire date"
-msgstr "သက်တမ်းကုန်နေ့စွဲ"
+msgid "display name"
+msgstr "ပြသနာမည်"
 
-msgid "session"
-msgstr "ကြားကာလ"
+msgid "site"
+msgstr "ဆိုက်"
 
-msgid "sessions"
-msgstr "ကြားကာလများ"
+msgid "sites"
+msgstr "ဆိုက်များ"

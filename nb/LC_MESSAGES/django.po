@@ -1,9 +1,9 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
+# Alexander Hansen <alexander.l.hansen@gmail.com>, 2013
 # Jannis Leidel <jannis@leidel.info>, 2011
-# jensadne <jensadne@pvv.ntnu.no>, 2014
-# Jon <jon@kolonial.no>, 2012
+# Jon <jon@kolonial.no>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
@@ -19,20 +19,20 @@ msgstr ""
 "Language: nb\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sessions"
-msgstr "Økter"
+msgid "Sites"
+msgstr "Nettsteder"
 
-msgid "session key"
-msgstr "øktnøkkel"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "Domenenavnet kan ikke inneholde mellomrom."
 
-msgid "session data"
-msgstr "øktdata"
+msgid "domain name"
+msgstr "domenenavn"
 
-msgid "expire date"
-msgstr "utløpsdato"
+msgid "display name"
+msgstr "visningsnavn"
 
-msgid "session"
-msgstr "økt"
+msgid "site"
+msgstr "nettsted"
 
-msgid "sessions"
-msgstr "økter"
+msgid "sites"
+msgstr "nettsteder"

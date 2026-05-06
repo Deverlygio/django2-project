@@ -2,6 +2,7 @@
 #
 # Translators:
 # Claude Paroz <claude@2xlibre.net>, 2014
+# Claude Paroz <claude@2xlibre.net>, 2013
 # Jannis Leidel <jannis@leidel.info>, 2011
 msgid ""
 msgstr ""
@@ -17,20 +18,20 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-msgid "Sessions"
-msgstr "Sessions"
+msgid "Sites"
+msgstr "Sites"
 
-msgid "session key"
-msgstr "clé de session"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "Le nom de domaine ne peut pas contenir d'espace ni de tabulation."
 
-msgid "session data"
-msgstr "données de session"
+msgid "domain name"
+msgstr "nom de domaine"
 
-msgid "expire date"
-msgstr "date d'expiration"
+msgid "display name"
+msgstr "nom à afficher"
 
-msgid "session"
-msgstr "session"
+msgid "site"
+msgstr "site"
 
-msgid "sessions"
-msgstr "sessions"
+msgid "sites"
+msgstr "sites"

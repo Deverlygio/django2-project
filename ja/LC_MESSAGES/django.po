@@ -2,7 +2,7 @@
 #
 # Translators:
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Shinya Okano <tokibito@gmail.com>, 2014
+# Shinya Okano <tokibito@gmail.com>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
@@ -18,20 +18,20 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Sessions"
-msgstr "セッション"
+msgid "Sites"
+msgstr "サイト"
 
-msgid "session key"
-msgstr "セッションキー"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "ドメイン名にスペース、タブを含めることはできません。"
 
-msgid "session data"
-msgstr "セッションデータ"
+msgid "domain name"
+msgstr "ドメイン名"
 
-msgid "expire date"
-msgstr "有効期限"
+msgid "display name"
+msgstr "表示名"
 
-msgid "session"
-msgstr "セッション"
+msgid "site"
+msgstr "サイト"
 
-msgid "sessions"
-msgstr "セッション"
+msgid "sites"
+msgstr "サイト"

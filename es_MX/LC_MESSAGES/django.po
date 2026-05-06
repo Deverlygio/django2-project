@@ -2,6 +2,7 @@
 #
 # Translators:
 # Abraham Estrada, 2011
+# Carlos  Castro <carmoicast@gmail.com>, 2011
 # zodman <zodman@gmail.com>, 2015
 msgid ""
 msgstr ""
@@ -18,20 +19,20 @@ msgstr ""
 "Language: es_MX\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sessions"
-msgstr "Sesiones"
+msgid "Sites"
+msgstr "Sitios"
 
-msgid "session key"
-msgstr "clave de sesión"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "El nombre de dominio no puede contener espacios o tabulaciones."
 
-msgid "session data"
-msgstr "datos de la sesión"
+msgid "domain name"
+msgstr "nombre del dominio"
 
-msgid "expire date"
-msgstr "fecha de caducidad"
+msgid "display name"
+msgstr "nombre visible"
 
-msgid "session"
-msgstr "período de sesiones"
+msgid "site"
+msgstr "sitio"
 
-msgid "sessions"
-msgstr "sesiones"
+msgid "sites"
+msgstr "sitios"

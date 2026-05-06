@@ -1,13 +1,14 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
+# Սմբատ Պետրոսյան <smbatpetrosyan@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-17 11:07+0100\n"
-"PO-Revision-Date: 2018-11-01 20:47+0000\n"
-"Last-Translator: Ruben Harutyunov <rharutyunov@mail.ru>\n"
+"PO-Revision-Date: 2017-09-19 21:51+0000\n"
+"Last-Translator: Jannis Leidel <jannis@leidel.info>\n"
 "Language-Team: Armenian (http://www.transifex.com/django/django/language/"
 "hy/)\n"
 "MIME-Version: 1.0\n"
@@ -16,20 +17,20 @@ msgstr ""
 "Language: hy\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sessions"
-msgstr "Սեսսիաներ"
+msgid "Sites"
+msgstr "Կայքեր"
 
-msgid "session key"
-msgstr "սեսսիայի բանալի"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "Տիրույթի անվանում դաշտը չի կարող պարունակել բացատներ կամ թաբեր"
 
-msgid "session data"
-msgstr "սեսսիայի տվյալներ"
+msgid "domain name"
+msgstr "Տիրույթի անվանում"
 
-msgid "expire date"
-msgstr "պիտանիության ժամկետը"
+msgid "display name"
+msgstr "Ցուցադրվող անունը"
 
-msgid "session"
-msgstr "սեսսիա"
+msgid "site"
+msgstr "կայք"
 
-msgid "sessions"
-msgstr "սեսսիաներ"
+msgid "sites"
+msgstr "կայքեր"

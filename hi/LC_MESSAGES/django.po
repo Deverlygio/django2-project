@@ -2,7 +2,6 @@
 #
 # Translators:
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Sandeep Satavlekar <sandysat@gmail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
@@ -17,20 +16,20 @@ msgstr ""
 "Language: hi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sessions"
+msgid "Sites"
 msgstr ""
 
-msgid "session key"
-msgstr "सत्र कुंजी"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr ""
 
-msgid "session data"
-msgstr "सत्र सामग्री"
+msgid "domain name"
+msgstr "डोमेन नाम"
 
-msgid "expire date"
-msgstr "समाप्ति तिथी"
+msgid "display name"
+msgstr "प्रदर्शन नाम"
 
-msgid "session"
-msgstr "सत्र"
+msgid "site"
+msgstr "साइट"
 
-msgid "sessions"
-msgstr "सत्रें"
+msgid "sites"
+msgstr "साइट"

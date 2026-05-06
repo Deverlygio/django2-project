@@ -16,20 +16,20 @@ msgstr ""
 "Language: lb\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sessions"
+msgid "Sites"
 msgstr ""
 
-msgid "session key"
+msgid "The domain name cannot contain any spaces or tabs."
 msgstr ""
 
-msgid "session data"
+msgid "domain name"
 msgstr ""
 
-msgid "expire date"
+msgid "display name"
 msgstr ""
 
-msgid "session"
+msgid "site"
 msgstr ""
 
-msgid "sessions"
+msgid "sites"
 msgstr ""

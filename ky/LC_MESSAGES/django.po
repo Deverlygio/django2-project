@@ -1,13 +1,12 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Soyuzbek Orozbek uulu <soyuzbek196.kg@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-17 11:07+0100\n"
-"PO-Revision-Date: 2020-05-23 06:08+0000\n"
+"PO-Revision-Date: 2020-05-23 06:09+0000\n"
 "Last-Translator: Soyuzbek Orozbek uulu <soyuzbek196.kg@gmail.com>\n"
 "Language-Team: Kyrgyz (http://www.transifex.com/django/django/language/ky/)\n"
 "MIME-Version: 1.0\n"
@@ -16,20 +15,20 @@ msgstr ""
 "Language: ky\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Sessions"
-msgstr "Отурумдар"
+msgid "Sites"
+msgstr "Сайттар"
 
-msgid "session key"
-msgstr "отурум ачкычы"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "домен аты боштук жана секирик камтый албайт."
 
-msgid "session data"
-msgstr "отурум берилиши"
+msgid "domain name"
+msgstr "домен аты"
 
-msgid "expire date"
-msgstr "мөөнөтү"
+msgid "display name"
+msgstr "көрүнүү аты"
 
-msgid "session"
-msgstr "отурум"
+msgid "site"
+msgstr "сайт"
 
-msgid "sessions"
-msgstr "отурумдар"
+msgid "sites"
+msgstr "сайттар"

@@ -2,7 +2,7 @@
 #
 # Translators:
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Ramiro Morales, 2014
+# Ramiro Morales, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
@@ -18,20 +18,21 @@ msgstr ""
 "Language: es_AR\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sessions"
-msgstr "Sesiones"
+msgid "Sites"
+msgstr "Sitios"
 
-msgid "session key"
-msgstr "clave de sesión"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr ""
+"El nombre de dominio no puede incluir espacios ni marcas de tabulación."
 
-msgid "session data"
-msgstr "datos de la sesión"
+msgid "domain name"
+msgstr "nombre de dominio"
 
-msgid "expire date"
-msgstr "fecha de caducidad"
+msgid "display name"
+msgstr "nombre para visualizar"
 
-msgid "session"
-msgstr "sesión"
+msgid "site"
+msgstr "sitio"
 
-msgid "sessions"
-msgstr "sesiones"
+msgid "sites"
+msgstr "sitios"

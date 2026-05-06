@@ -2,6 +2,7 @@
 #
 # Translators:
 # Jannis Leidel <jannis@leidel.info>, 2011
+# Nuno Mariz <nmariz@gmail.com>, 2013
 # Raúl Pedro Fernandes Santos, 2014
 msgid ""
 msgstr ""
@@ -18,20 +19,20 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sessions"
-msgstr "Sessões"
+msgid "Sites"
+msgstr "Sites"
 
-msgid "session key"
-msgstr "chave da sessão"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "O nome do domínio não pode conter espaços ou tabulações."
 
-msgid "session data"
-msgstr "dados da sessão"
+msgid "domain name"
+msgstr "nome do domínio"
 
-msgid "expire date"
-msgstr "data de expiração"
+msgid "display name"
+msgstr "mostrar nome"
 
-msgid "session"
-msgstr "sessão"
+msgid "site"
+msgstr "site"
 
-msgid "sessions"
-msgstr "sessões"
+msgid "sites"
+msgstr "sites"

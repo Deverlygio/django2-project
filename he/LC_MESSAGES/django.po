@@ -2,7 +2,7 @@
 #
 # Translators:
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Meir Kriheli <mkriheli@gmail.com>, 2014
+# Meir Kriheli <mkriheli@gmail.com>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
@@ -18,20 +18,20 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % "
 "1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
 
-msgid "Sessions"
-msgstr "התחברויות"
+msgid "Sites"
+msgstr "אתרים"
 
-msgid "session key"
-msgstr "מפתח התחברות (session key)"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "שם המתחם אינו יכול להכיל רווחים או טאבים."
 
-msgid "session data"
-msgstr "מידע התחברות (session data)"
+msgid "domain name"
+msgstr "שם מתחם"
 
-msgid "expire date"
-msgstr "תאריך פג תוקף"
+msgid "display name"
+msgstr "שם לתצוגה"
 
-msgid "session"
-msgstr "התחברות"
+msgid "site"
+msgstr "אתר"
 
-msgid "sessions"
-msgstr "התחברויות"
+msgid "sites"
+msgstr "אתרים"

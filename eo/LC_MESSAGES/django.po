@@ -1,6 +1,7 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
+# Baptiste Darthenay <baptiste+transifex@darthenay.fr>, 2013
 # Baptiste Darthenay <baptiste+transifex@darthenay.fr>, 2014
 # kristjan <kristjan.schmidt@googlemail.com>, 2011
 msgid ""
@@ -18,20 +19,20 @@ msgstr ""
 "Language: eo\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sessions"
-msgstr "Seancoj"
+msgid "Sites"
+msgstr "Retejoj"
 
-msgid "session key"
-msgstr "seanco-ŝlosilo"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "Tiu domajna nomo ne povas enteni nek spacojn nek tabojn."
 
-msgid "session data"
-msgstr "seanco-datumo"
+msgid "domain name"
+msgstr "domajna nomo"
 
-msgid "expire date"
-msgstr "senvalidiĝ-dato"
+msgid "display name"
+msgstr "vidiga nomo"
 
-msgid "session"
-msgstr "seanco"
+msgid "site"
+msgstr "retejo"
 
-msgid "sessions"
-msgstr "seancoj"
+msgid "sites"
+msgstr "retejoj"

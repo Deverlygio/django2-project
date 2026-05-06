@@ -1,6 +1,7 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
+# angularcircle, 2013
 # Jannis Leidel <jannis@leidel.info>, 2011
 # Mattia Procopio <promat85@gmail.com>, 2014
 # Tomasz Kajtoch <tomekkaj@tomekkaj.pl>, 2016
@@ -20,20 +21,20 @@ msgstr ""
 "%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
 "%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
-msgid "Sessions"
-msgstr "Sesje"
+msgid "Sites"
+msgstr "Strony"
 
-msgid "session key"
-msgstr "klucz sesji"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "Nazwa domeny nie może zawierać spacji ani tabulatorów."
 
-msgid "session data"
-msgstr "dane sesji"
+msgid "domain name"
+msgstr "nazwa domeny"
 
-msgid "expire date"
-msgstr "data wygaśnięcia sesji"
+msgid "display name"
+msgstr "nazwa wyświetlana"
 
-msgid "session"
-msgstr "sesja"
+msgid "site"
+msgstr "strona"
 
-msgid "sessions"
-msgstr "sesje"
+msgid "sites"
+msgstr "strony"

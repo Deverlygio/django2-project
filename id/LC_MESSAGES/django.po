@@ -3,7 +3,7 @@
 # Translators:
 # Jannis Leidel <jannis@leidel.info>, 2011
 # M Asep Indrayana <me@drayanaindra.com>, 2015
-# rodin <romihardiyanto@gmail.com>, 2011
+# rodin <romihardiyanto@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
@@ -19,20 +19,20 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Sessions"
-msgstr "Sesi"
+msgid "Sites"
+msgstr "Situs"
 
-msgid "session key"
-msgstr "kunci sesi"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "Nama domain tidak dapat mengandung karakter spasi atau tab."
 
-msgid "session data"
-msgstr "data sesi"
+msgid "domain name"
+msgstr "nama domain"
 
-msgid "expire date"
-msgstr "tanggal kedaluwarsa"
+msgid "display name"
+msgstr "nama yang ditampilkan"
 
-msgid "session"
-msgstr "sesi"
+msgid "site"
+msgstr "situs"
 
-msgid "sessions"
-msgstr "sesi"
+msgid "sites"
+msgstr "situs"

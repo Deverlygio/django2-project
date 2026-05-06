@@ -18,20 +18,20 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3);\n"
 
-msgid "Sessions"
-msgstr "Posedźenja"
+msgid "Sites"
+msgstr "Sydła"
 
-msgid "session key"
-msgstr "posedźenski kluč"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "Domenowe mjeno njemóže mjezoty abo tabulatory wobsahować."
 
-msgid "session data"
-msgstr "posedźenske daty"
+msgid "domain name"
+msgstr "domenowe mjeno"
 
-msgid "expire date"
-msgstr "datum spadnjenja"
+msgid "display name"
+msgstr "zwobraznjenske mjeno"
 
-msgid "session"
-msgstr "posedźenje"
+msgid "site"
+msgstr "sydło"
 
-msgid "sessions"
-msgstr "posedźenja"
+msgid "sites"
+msgstr "sydła"

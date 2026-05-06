@@ -16,20 +16,20 @@ msgstr ""
 "Language: km\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Sessions"
+msgid "Sites"
 msgstr ""
 
-msgid "session key"
-msgstr "លេខសំគាល់​រយះពេល​ពិនិត្យ​ចូល"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr ""
 
-msgid "session data"
-msgstr "ទិន្នន័យរយះពេល​ពិនិត្យ​ចូល"
+msgid "domain name"
+msgstr "ឈ្មោះដមែន"
 
-msgid "expire date"
-msgstr "ហួសពេលកំណត់"
+msgid "display name"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
 
-msgid "session"
-msgstr "រយះពេល​ពិនិត្យ​ចូល"
+msgid "site"
+msgstr "គេហទំព័រ"
 
-msgid "sessions"
-msgstr "រយះពេល​ពិនិត្យ​ចូល"
+msgid "sites"
+msgstr "គេហទំព័រ"

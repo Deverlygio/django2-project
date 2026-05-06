@@ -17,20 +17,20 @@ msgstr ""
 "Language: os\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Sessions"
+msgid "Sites"
 msgstr ""
 
-msgid "session key"
-msgstr "сессийы амонӕн"
+msgid "The domain name cannot contain any spaces or tabs."
+msgstr "Домены номы ма хъуамӕ уой табтӕ ӕмӕ хъӕнтӕ."
 
-msgid "session data"
-msgstr "сессийы рардтӕ"
+msgid "domain name"
+msgstr "домены ном"
 
-msgid "expire date"
-msgstr "фӕуды афон"
+msgid "display name"
+msgstr "ӕвдисгӕ ном"
 
-msgid "session"
-msgstr "сесси"
+msgid "site"
+msgstr "сайт"
 
-msgid "sessions"
-msgstr "сесситӕ"
+msgid "sites"
+msgstr "сайттӕ"
