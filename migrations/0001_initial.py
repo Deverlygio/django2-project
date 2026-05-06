@@ -8,7 +8,7 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name="FlatPage",
+            name="Redirect",
             fields=[
                 (
                     "id",
@@ -20,48 +20,44 @@ class Migration(migrations.Migration):
                     ),
                 ),
                 (
-                    "url",
-                    models.CharField(max_length=100, verbose_name="URL", db_index=True),
-                ),
-                ("title", models.CharField(max_length=200, verbose_name="title")),
-                ("content", models.TextField(verbose_name="content", blank=True)),
-                (
-                    "enable_comments",
-                    models.BooleanField(default=False, verbose_name="enable comments"),
+                    "site",
+                    models.ForeignKey(
+                        to="sites.Site",
+                        on_delete=models.CASCADE,
+                        verbose_name="site",
+                    ),
                 ),
                 (
-                    "template_name",
+                    "old_path",
                     models.CharField(
                         help_text=(
-                            "Example: “flatpages/contact_page.html”. If this isn’t "
-                            "provided, the system will use “flatpages/default.html”."
+                            "This should be an absolute path, excluding the domain "
+                            "name. Example: “/events/search/”."
                         ),
-                        max_length=70,
-                        verbose_name="template name",
+                        max_length=200,
+                        verbose_name="redirect from",
+                        db_index=True,
+                    ),
+                ),
+                (
+                    "new_path",
+                    models.CharField(
+                        help_text=(
+                            "This can be either an absolute path (as above) or a full "
+                            "URL starting with “http://”."
+                        ),
+                        max_length=200,
+                        verbose_name="redirect to",
                         blank=True,
                     ),
                 ),
-                (
-                    "registration_required",
-                    models.BooleanField(
-                        default=False,
-                        help_text=(
-                            "If this is checked, only logged-in users will be able to "
-                            "view the page."
-                        ),
-                        verbose_name="registration required",
-                    ),
-                ),
-                (
-                    "sites",
-                    models.ManyToManyField(to="sites.Site", verbose_name="sites"),
-                ),
             ],
             options={
-                "ordering": ["url"],
-                "db_table": "django_flatpage",
-                "verbose_name": "flat page",
-                "verbose_name_plural": "flat pages",
+                "ordering": ["old_path"],
+                "unique_together": {("site", "old_path")},
+                "db_table": "django_redirect",
+                "verbose_name": "redirect",
+                "verbose_name_plural": "redirects",
             },
             bases=(models.Model,),
         ),

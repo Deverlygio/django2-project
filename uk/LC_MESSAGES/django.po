@@ -1,20 +1,18 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Andriy Sokolovskiy <me@asokolovskiy.com>, 2015
-# Denis Podlesniy <haos616@gmail.com>, 2016
-# Igor Melnyk, 2017
-# Illia Volochii <illia.volochii@gmail.com>, 2021,2023
-# Kirill Gagarski <gagarin.gtn@gmail.com>, 2015-2016
-# tarasyyyk <taras.korzhak96@gmail.com>, 2018
-# Zoriana Zaiats, 2017
+# Oleksandr Chernihov <o.chernihov@gmail.com>, 2014
+# Illia Volochii <illia.volochii@gmail.com>, 2021
+# Jannis Leidel <jannis@leidel.info>, 2011
+# Mykola Zamkovoi <nickzam@gmail.com>, 2014
+# Vitaliy Kozlovskyi <ubombi@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-17 02:13-0600\n"
-"PO-Revision-Date: 2023-04-19 09:22+0000\n"
-"Last-Translator: Illia Volochii <illia.volochii@gmail.com>, 2021,2023\n"
+"POT-Creation-Date: 2021-01-15 09:00+0100\n"
+"PO-Revision-Date: 2021-01-20 00:12+0000\n"
+"Last-Translator: Illia Volochii <illia.volochii@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/django/django/language/"
 "uk/)\n"
 "MIME-Version: 1.0\n"
@@ -26,101 +24,33 @@ msgstr ""
 "100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
 "(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
-msgid "PostgreSQL extensions"
-msgstr "Розширення PostgreSQL"
+msgid "Redirects"
+msgstr "Перенаправлення"
 
-#, python-format
-msgid "Item %(nth)s in the array did not validate:"
-msgstr "Елемент %(nth)s у масиві не коректний:"
+msgid "site"
+msgstr "сайт"
 
-msgid "Nested arrays must have the same length."
-msgstr "Вкладени масиви повинні бути одинакової довжини."
+msgid "redirect from"
+msgstr "перенаправлення з"
 
-msgid "Map of strings to strings/nulls"
-msgstr "Асоціативний масив із рядків у рядки/обнулення"
-
-#, python-format
-msgid "The value of “%(key)s” is not a string or null."
-msgstr "Значення “%(key)s” не є рядком чи null."
-
-msgid "Could not load JSON data."
-msgstr "Не вдалося завантажити JSON-дані."
-
-msgid "Input must be a JSON dictionary."
-msgstr "Значення повинне бути JSON-словником."
-
-msgid "Enter two valid values."
-msgstr "Введіть два корректних значення."
-
-msgid "The start of the range must not exceed the end of the range."
-msgstr "Початок діапазону не повинен перевищувати кінець діапазону."
-
-msgid "Enter two whole numbers."
-msgstr "Введіть два ціліх числа."
-
-msgid "Enter two numbers."
-msgstr "Введіть два числа."
-
-msgid "Enter two valid date/times."
-msgstr "Введіть дві коректні дати з часом."
-
-msgid "Enter two valid dates."
-msgstr "Введіть дві коректні дати."
-
-#, python-format
 msgid ""
-"List contains %(show_value)d item, it should contain no more than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no more than "
-"%(limit_value)d."
-msgstr[0] ""
-"Список містить %(show_value)d елемент, кількість яких не має перевищувати "
-"%(limit_value)d."
-msgstr[1] ""
-"Список містить %(show_value)d елементи, кількість яких не має перевищувати "
-"%(limit_value)d."
-msgstr[2] ""
-"Список містить %(show_value)d елементів, кількість яких не має перевищувати "
-"%(limit_value)d."
-msgstr[3] ""
-"Список містить %(show_value)d елементів, кількість яких не має перевищувати "
-"%(limit_value)d."
+"This should be an absolute path, excluding the domain name. Example: “/"
+"events/search/”."
+msgstr ""
+"Шлях має бути абсолютним без доменного імені. Наприклад, “/events/search/”."
 
-#, python-format
+msgid "redirect to"
+msgstr "перенаправлення до"
+
 msgid ""
-"List contains %(show_value)d item, it should contain no fewer than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no fewer than "
-"%(limit_value)d."
-msgstr[0] ""
-"Список містить %(show_value)d елемент, кількість яких не має бути не менша "
-"%(limit_value)d."
-msgstr[1] ""
-"Список містить %(show_value)d елементів, кількість яких не має бути не менша "
-"%(limit_value)d."
-msgstr[2] ""
-"Список містить %(show_value)d елемента, кількість яких не має бути не менша "
-"%(limit_value)d."
-msgstr[3] ""
-"Список містить %(show_value)d елемента, кількість яких не має бути не менша "
-"%(limit_value)d."
+"This can be either an absolute path (as above) or a full URL starting with a "
+"scheme such as “https://”."
+msgstr ""
+"Шлях може бути або абсолютним (як вказано вище), або повним URL (який "
+"починається із схеми, як-от “https://”)."
 
-#, python-format
-msgid "Some keys were missing: %(keys)s"
-msgstr "Не вистачає наступних ключів: %(keys)s"
+msgid "redirect"
+msgstr "перенаправлення"
 
-#, python-format
-msgid "Some unknown keys were provided: %(keys)s"
-msgstr "Були надані наступні невідомі ключі: %(keys)s"
-
-#, python-format
-msgid ""
-"Ensure that the upper bound of the range is not greater than %(limit_value)s."
-msgstr "Переконайтеся, що верхня межа діапазону не перевищує %(limit_value)s."
-
-#, python-format
-msgid ""
-"Ensure that the lower bound of the range is not less than %(limit_value)s."
-msgstr "Переконайтеся, що нижня межа діапазону не менша ніж %(limit_value)s."
+msgid "redirects"
+msgstr "перенаправлення"

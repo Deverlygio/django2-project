@@ -2,14 +2,14 @@
 #
 # Translators:
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Maredudd ap Gwyndaf <maredudd@maredudd.com>, 2012,2014
+# Maredudd ap Gwyndaf <maredudd@maredudd.com>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 17:42+0200\n"
+"POT-Creation-Date: 2015-01-17 11:07+0100\n"
 "PO-Revision-Date: 2017-09-23 18:54+0000\n"
-"Last-Translator: Jannis Leidel <jannis@leidel.info>\n"
+"Last-Translator: Maredudd ap Gwyndaf <maredudd@maredudd.com>\n"
 "Language-Team: Welsh (http://www.transifex.com/django/django/language/cy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,34 +18,20 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != "
 "11) ? 2 : 3;\n"
 
-msgid "Redirects"
-msgstr "Ailgyfeiriadau"
+msgid "Sessions"
+msgstr "Sesiynau"
 
-msgid "site"
-msgstr ""
+msgid "session key"
+msgstr "allwedd sesiwn"
 
-msgid "redirect from"
-msgstr "ailgyfeirio o"
+msgid "session data"
+msgstr "data sesiwn"
 
-msgid ""
-"This should be an absolute path, excluding the domain name. Example: '/"
-"events/search/'."
-msgstr ""
-"Dylai hon fod yn lwybr absoliwt, heb yr enw parth. Er enghraifft: '/"
-"digwyddiadau/chwilio/'."
+msgid "expire date"
+msgstr "dyddiad terfyn"
 
-msgid "redirect to"
-msgstr "ailgyfeirio i"
+msgid "session"
+msgstr "sesiwn"
 
-msgid ""
-"This can be either an absolute path (as above) or a full URL starting with "
-"'http://'."
-msgstr ""
-"Gellir fod naill ai yn lwybr absoliwt (fel uchod) neu URL llawn yn dechrau â "
-"'http://'."
-
-msgid "redirect"
-msgstr "ailgyfeiriad"
-
-msgid "redirects"
-msgstr "ailgyfeiriadau"
+msgid "sessions"
+msgstr "sesiynau"

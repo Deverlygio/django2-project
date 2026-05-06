@@ -1,19 +1,19 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Lele Long <schemacs@gmail.com>, 2015,2017
-# Liping Wang <lynn.config@gmail.com>, 2016
-# Liping Wang <lynn.config@gmail.com>, 2016
-# wang zhao <672565116@qq.com>, 2018
+# HuanCheng Bai白宦成 <xiqingongzi@gmail.com>, 2018
+# Jannis Leidel <jannis@leidel.info>, 2011
+# mozillazg <opensource.mozillazg@gmail.com>, 2016
+# Ronald White <tkliuxing@me.com>, 2014
+# Veoco <one@nomox.cn>, 2021
 # wolf ice <warwolf7677@163.com>, 2020
-# 高乐喆 <gaolezhe@outlook.com>, 2023
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-17 02:13-0600\n"
-"PO-Revision-Date: 2023-04-19 09:22+0000\n"
-"Last-Translator: 高乐喆 <gaolezhe@outlook.com>, 2023\n"
+"POT-Creation-Date: 2021-01-15 09:00+0100\n"
+"PO-Revision-Date: 2021-02-07 04:22+0000\n"
+"Last-Translator: Veoco <one@nomox.cn>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/django/django/"
 "language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -22,79 +22,32 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "PostgreSQL extensions"
-msgstr "PostgreSQL 扩展。"
+msgid "Redirects"
+msgstr "重定向"
 
-#, python-format
-msgid "Item %(nth)s in the array did not validate:"
-msgstr "数组中的%(nth)s项目没有验证："
+msgid "site"
+msgstr "站点"
 
-msgid "Nested arrays must have the same length."
-msgstr "嵌套数组必须是相同长度。"
+msgid "redirect from"
+msgstr "重定向自"
 
-msgid "Map of strings to strings/nulls"
-msgstr "字符串到字符串/空的映射"
-
-#, python-format
-msgid "The value of “%(key)s” is not a string or null."
-msgstr "“%(key)s”的值不是一个字符串或null"
-
-msgid "Could not load JSON data."
-msgstr "不能加载JSON数据。"
-
-msgid "Input must be a JSON dictionary."
-msgstr "输入必须是JSON字典。"
-
-msgid "Enter two valid values."
-msgstr "输入两个有效的值。"
-
-msgid "The start of the range must not exceed the end of the range."
-msgstr "区间开头不能超过区间结尾。"
-
-msgid "Enter two whole numbers."
-msgstr "输入两个整数。"
-
-msgid "Enter two numbers."
-msgstr "输入两个数字。"
-
-msgid "Enter two valid date/times."
-msgstr "输入两个有效的日期／时间。"
-
-msgid "Enter two valid dates."
-msgstr "输入两个有效日期。"
-
-#, python-format
 msgid ""
-"List contains %(show_value)d item, it should contain no more than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no more than "
-"%(limit_value)d."
-msgstr[0] "列表已包含 %(show_value)d 项，不应该超过 %(limit_value)d 项。"
+"This should be an absolute path, excluding the domain name. Example: “/"
+"events/search/”."
+msgstr "这应该是绝对路径，不包括域名。例如：“/events/search/”。"
 
-#, python-format
+msgid "redirect to"
+msgstr "重定向到"
+
 msgid ""
-"List contains %(show_value)d item, it should contain no fewer than "
-"%(limit_value)d."
-msgid_plural ""
-"List contains %(show_value)d items, it should contain no fewer than "
-"%(limit_value)d."
-msgstr[0] "列表已包含 %(show_value)d 项，不应该少于 %(limit_value)d 项。"
+"This can be either an absolute path (as above) or a full URL starting with a "
+"scheme such as “https://”."
+msgstr ""
+"这可以是绝对路径（如上所述），也可以是一个以 “https://” 等协议开头的完整 "
+"URL。"
 
-#, python-format
-msgid "Some keys were missing: %(keys)s"
-msgstr "某些键缺失：%(keys)s"
+msgid "redirect"
+msgstr "重定向"
 
-#, python-format
-msgid "Some unknown keys were provided: %(keys)s"
-msgstr "包含未知的键：%(keys)s"
-
-#, python-format
-msgid ""
-"Ensure that the upper bound of the range is not greater than %(limit_value)s."
-msgstr "确保范围的上限不大于%(limit_value)s。"
-
-#, python-format
-msgid ""
-"Ensure that the lower bound of the range is not less than %(limit_value)s."
-msgstr "确保范围的下限不小于%(limit_value)s。"
+msgid "redirects"
+msgstr "重定向"

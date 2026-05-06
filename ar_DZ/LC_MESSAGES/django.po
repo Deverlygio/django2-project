@@ -1,15 +1,14 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Jihad Bahmaid Al-Halki, 2022
 # Riterix <infosrabah@gmail.com>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-15 09:00+0100\n"
-"PO-Revision-Date: 2022-07-24 18:32+0000\n"
-"Last-Translator: Jihad Bahmaid Al-Halki\n"
+"POT-Creation-Date: 2015-01-17 11:07+0100\n"
+"PO-Revision-Date: 2019-12-14 22:50+0000\n"
+"Last-Translator: Riterix <infosrabah@gmail.com>\n"
 "Language-Team: Arabic (Algeria) (http://www.transifex.com/django/django/"
 "language/ar_DZ/)\n"
 "MIME-Version: 1.0\n"
@@ -19,32 +18,20 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-msgid "Redirects"
-msgstr "إعادات التوجيه"
+msgid "Sessions"
+msgstr "جلسات"
 
-msgid "site"
-msgstr "موقع"
+msgid "session key"
+msgstr "مفتاح الجلسة"
 
-msgid "redirect from"
-msgstr "إعادة التوجيه من"
+msgid "session data"
+msgstr "بيانات الجلسة"
 
-msgid ""
-"This should be an absolute path, excluding the domain name. Example: “/"
-"events/search/”."
-msgstr "يجب أن يكون هذا مساراً مطلقاً وبدون اسم النطاق. مثال: '/events/search/'."
+msgid "expire date"
+msgstr "تاريخ الانتهاء"
 
-msgid "redirect to"
-msgstr "إعادة التوجيه إلى"
+msgid "session"
+msgstr "جلسة"
 
-msgid ""
-"This can be either an absolute path (as above) or a full URL starting with a "
-"scheme such as “https://”."
-msgstr ""
-"قد يكون هذا المسار منتهي الصلاحية (كما هو موضح أعلاه) أو أن العنوان له بادئة "
-"بصيغة مثل\"https://\"."
-
-msgid "redirect"
-msgstr "إعادة التوجيه"
-
-msgid "redirects"
-msgstr "إعادات التوجيه"
+msgid "sessions"
+msgstr "جلسات"
